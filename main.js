@@ -207,6 +207,52 @@ $( "#electric" ).hover(function(){
 
 
 
+
+
+
+    $( "#sell" ).hover(function(){
+        $( ".advantBoxMenuContent" ).removeClass( "none" );
+        $( ".advantBoxMenuContent" ).addClass( "grid" );
+        $( ".advantBoxMenuContent1" ).addClass( "none" );
+        $( ".advantBoxMenuContent2" ).addClass( "none" );
+        $( ".advantBoxMenuContent3" ).addClass( "none" );
+        $( ".advantBoxMenuContent1" ).removeClass( "grid" );
+        $( ".advantBoxMenuContent2" ).removeClass( "grid" );
+        $( ".advantBoxMenuContent3" ).removeClass( "grid" );
+
+
+    });
+
+
+    $( "#studio" ).hover(function(){
+        $( ".advantBoxMenuContent1" ).removeClass( "none" );
+        $( ".advantBoxMenuContent1" ).addClass( "grid" );
+        $( ".advantBoxMenuContent" ).addClass( "none" );
+        $( ".advantBoxMenuContent2" ).addClass( "none" );
+        $( ".advantBoxMenuContent3" ).addClass( "none" );
+        $( ".advantBoxMenuContent" ).removeClass( "grid" );
+        $( ".advantBoxMenuContent2" ).removeClass( "grid" );
+        $( ".advantBoxMenuContent3" ).removeClass( "grid" );
+
+
+    });
+
+
+    $( "#production" ).hover(function(){
+        $( ".advantBoxMenuContent2" ).removeClass( "none" );
+        $( ".advantBoxMenuContent2" ).addClass( "grid" );
+        $( ".advantBoxMenuContent" ).addClass( "none" );
+        $( ".advantBoxMenuContent1" ).addClass( "none" );
+        $( ".advantBoxMenuContent3" ).addClass( "none" );
+        $( ".advantBoxMenuContent" ).removeClass( "grid" );
+        $( ".advantBoxMenuContent1" ).removeClass( "grid" );
+        $( ".advantBoxMenuContent3" ).removeClass( "grid" );
+
+    });
+
+
+
+
     $(window).scroll(function() {
                 if($(this).scrollTop() > 900) {
                     $(".menu-headerDown-left").show();

@@ -2675,6 +2675,11 @@ align-self: center;
     border-bottom: 4px solid #E34850;
 }
 
+#sell:hover,#studio:hover,#production:hover{
+    color: #E34850;
+    border-bottom: 4px solid #E34850;
+}
+
 .advantBoxMenuContent{
     grid-area: 1 / 2 / 2 / 3;
     grid-template-columns: 3fr 4fr;
@@ -3955,4 +3960,44 @@ font-weight: bold;
     font-size: 36px;
     font-family: Effra;
     margin-bottom: 30px;
+}
+
+#sell{
+text-align: -webkit-center;
+}
+
+#studio{
+    text-align: -webkit-center;
+    width: 25%;
+        padding-bottom: 5px;
+}
+
+#production{
+    text-align: -webkit-center;
+    width: 25%;
+        padding-bottom: 5px;
+}
+
+
+
+#studioAdvantContentLeft{
+    grid-area: 1 / 1 / 2 / 2;
+    background: url(img/studioAdvantContentLeft.png) no-repeat;
+    width: 578px;
+    height: 411px;
+    margin-top: 35px;
+    padding-bottom: 45px;
+}
+
+
+#studioBoxMenuContentRight{
+    margin-top: 115px;
+}
+
+
+.studioVideosContentGrid{
+    display: flex;
+    flex-direction: column;
+    grid-area: 1 / 2 / 2 / 3;
+    align-items: center;
 }

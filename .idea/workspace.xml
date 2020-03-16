@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="78caece4-cfe6-4a16-bb77-e04fa48c6df1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/indexSell.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/indexStudio.html" beforeDir="false" afterPath="$PROJECT_DIR$/indexStudio.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -86,8 +85,20 @@
       <workItem from="1583858181185" duration="606000" />
       <workItem from="1583872313365" duration="41000" />
       <workItem from="1583927650702" duration="1062000" />
-      <workItem from="1583932865362" duration="617000" />
+      <workItem from="1583932865362" duration="4846000" />
+      <workItem from="1584055615347" duration="660000" />
+      <workItem from="1584095902033" duration="3030000" />
+      <workItem from="1584296360591" duration="8491000" />
+      <workItem from="1584307954906" duration="30000" />
     </task>
+    <task id="LOCAL-00001" summary="11.03">
+      <created>1583934484327</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1583934484327</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -105,5 +116,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="11.03" />
+    <option name="LAST_COMMIT_MESSAGE" value="11.03" />
   </component>
 </project>

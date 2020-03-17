@@ -2273,7 +2273,7 @@ margin-bottom: 60px;
     flex-direction: column;
     grid-area: 1 / 2 / 2 / 3;
     align-items: center;
-    margin-top: 253px;
+    margin-top: 280px;
     margin-bottom: 140px;
     margin-left: 40px;
 }
@@ -4290,3 +4290,526 @@ font-size: 18px;
     margin-top: 35px;
     margin-bottom: 55px;
 }
+
+#aboutTittle{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(img/aboutTittle.png)no-repeat;
+    width: 100%;
+    height: 634px;
+    margin-top: 122px;
+}
+
+#aboutTittleDown{
+    width: 75%;
+}
+
+.aboutInfoContentGrid{
+    grid-area: 1 / 2 / 2 / 3;
+    display: grid;
+    grid-template-columns: 3fr 4fr;
+    grid-template-rows: 1fr;
+    position: relative;
+    margin-bottom: 80px;
+    grid-column-gap: 80px;
+}
+
+.aboutInfoContentGridLeft{
+    grid-area: 1 / 1 / 2 / 2;
+    position: relative;
+    margin-top: 20%;
+}
+
+.aboutInfoContentGridRight{
+    margin-top: 25%;
+}
+
+
+
+
+
+
+
+
+
+
+
+.aboutInfoContentGridRight{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 30px;
+}
+
+
+.aboutInfoContentGridRight1{
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+
+.aboutInfoContentGridRight2{
+    grid-area: 1 / 2 / 2 / 3;
+}
+
+
+.aboutInfoContentGridRight3{
+    grid-area: 2 / 1 / 3 / 2;
+}
+
+
+.aboutInfoContentGridRight4{
+    grid-area: 2 / 2 / 3 / 3;
+}
+
+
+.aboutInfoContentGridRight1Icon{
+background: url("img/aboutInfoContentGridRight1Icon.png") no-repeat;
+    width: 70px;
+    height: 67px;
+}
+.aboutInfoContentGridRight2Icon{
+background: url("img/aboutInfoContentGridRight2Icon.png") no-repeat;
+    width: 70px;
+    height: 67px;
+}
+.aboutInfoContentGridRight3Icon{
+background: url("img/aboutInfoContentGridRight3Icon.png") no-repeat;
+    width: 70px;
+    height: 67px;
+}
+.aboutInfoContentGridRight4Icon{
+background: url("img/aboutInfoContentGridRight4Icon.png") no-repeat;
+    width: 70px;
+    height: 67px;
+}
+
+
+.aboutInfoContentGridTittle{
+    font-family: Effra;
+    font-weight: bold;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+
+.aboutInfoContentGridLeftText{
+    font-size: 18px;
+    font-family: Circe;
+    margin-bottom: 40px;
+    width: 89%;
+}
+
+
+.aboutInfoContentGridLeftTextDown{
+    font-size: 18px;
+    font-family: Circe;
+    width: 89%;
+}
+
+
+.aboutInfoContentGridRightText{
+    font-family: Effra;
+    font-weight: bold;
+    font-size: 18px;
+    width: 70%;
+    margin-top: 10px;
+}
+
+.aboutInfo{
+    background: #ECEDEF;
+}
+
+
+.aboutPlusContentGrid{
+    grid-area: 1 / 2 / 2 / 3;
+    display: grid;
+    grid-template-columns: 3fr 4fr;
+    grid-template-rows: 1fr;
+    position: relative;
+    margin-bottom: 80px;
+    grid-column-gap: 80px;
+}
+
+
+.aboutPlusContentGridLeft{
+    grid-area: 1 / 1 / 2 / 2;
+    background: url(img/aboutPlusContentGridLeft.png) no-repeat;
+    width: 578px;
+    height: 572px;
+    position: relative;
+
+}
+.aboutPlusContentGridRight{
+
+
+}
+
+
+.aboutPlusContentGridRightTittle{
+    font-family: Effra;
+    font-weight: bold;
+    font-size: 36px;
+
+}
+
+.aboutPlusContentGridRightText{
+    margin-top: 20px;
+    font-size: 18px;
+    font-family: Circe;
+}
+
+.aboutPlusContent {
+    margin-top: 90px;
+}
+
+
+.aboutWorkContentGrid{
+    grid-area: 1 / 2 / 2 / 3;
+
+}
+
+
+.aboutWorkContentGridBox{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 5px;
+    grid-row-gap: 15px;
+    margin-bottom: 85px;
+}
+
+
+.aboutWorkContentGridBoxContent1{
+    grid-area: 1 / 1 / 2 / 2;
+}
+.aboutWorkContentGridBoxContent2{
+    grid-area: 1 / 2 / 2 / 3;
+}
+.aboutWorkContentGridBoxContent3{
+    grid-area: 1 / 3 / 2 / 4;
+}
+.aboutWorkContentGridBoxContent4{
+    grid-area: 2 / 1 / 3 / 2;
+}
+.aboutWorkContentGridBoxContent5{
+    grid-area: 2 / 2 / 3 / 3;
+}
+.aboutWorkContentGridBoxContent6{
+    grid-area: 2 / 3 / 3 / 4;
+}
+
+
+.aboutWorkContentGridBoxContent1Icon{
+    background: url(img/aboutWorkContentGridBoxContent1Icon.png) no-repeat;
+    width: 59px;
+    height: 65px;
+}
+.aboutWorkContentGridBoxContent2Icon{
+    background: url(img/aboutWorkContentGridBoxContent2Icon.png) no-repeat;
+    width: 59px;
+    height: 65px;
+}
+.aboutWorkContentGridBoxContent3Icon{
+    background: url(img/aboutWorkContentGridBoxContent3Icon.png) no-repeat;
+    width: 59px;
+    height: 65px;
+}
+.aboutWorkContentGridBoxContent4Icon{
+    background: url(img/aboutWorkContentGridBoxContent4Icon.png) no-repeat;
+    width: 59px;
+    height: 65px;
+}
+.aboutWorkContentGridBoxContent5Icon{
+    background: url(img/aboutWorkContentGridBoxContent5Icon.png) no-repeat;
+    width: 59px;
+    height: 59px;
+}
+.aboutWorkContentGridBoxContent6Icon{
+    background: url(img/aboutWorkContentGridBoxContent6Icon.png) no-repeat;
+    width: 72px;
+    height: 59px;
+}
+
+.aboutWork{
+    background: #ECEDEF;
+}
+
+.aboutWorkContentGridTittle{
+    font-family: Effra;
+    font-weight: bold;
+    font-size: 36px;
+    text-align: center;
+    margin-top: 118px;
+    margin-bottom: 40px ;
+}
+
+.aboutWorkContentGridBoxContentText{
+    font-size: 16px;
+    font-family: Circe;
+}
+
+
+#aboutText5{
+    width: 90%;
+}
+#aboutText6{
+    width: 80%;
+}
+
+.aboutForContentGrid{
+    grid-area: 1 / 2 / 2 / 3;
+    margin-bottom: 60px;
+}
+
+.aboutForContentGridBox{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 55px;
+}
+
+
+.aboutForContentGridBoxContent1{
+    grid-area: 1 / 1 / 2 / 2;
+
+}
+.aboutForContentGridBoxContent2{
+    grid-area: 1 / 2 / 2 / 3;
+
+}
+.aboutForContentGridBoxContent3{
+    grid-area: 1 / 3 / 2 / 4;
+
+}
+.aboutForContentGridBoxContent4{
+    grid-area: 1 / 4 / 2 / 5;
+
+}
+.aboutForContentGridBoxContent5{
+
+    grid-area: 2 / 1 / 3 / 2;
+}
+.aboutForContentGridBoxContent6{
+
+    grid-area: 2 / 2 / 3 / 3;
+}
+.aboutForContentGridBoxContent7{
+
+    grid-area: 2 / 3 / 3 / 4;
+}
+.aboutForContentGridBoxContent8{
+    grid-area: 2 / 4 / 3 / 5;
+
+}
+
+.aboutForContentGridBoxContent1Img{
+    background: url(img/aboutForContentGridBoxContent1Img.png) no-repeat;
+    width: 297px;
+    height: 111px;
+}
+.aboutForContentGridBoxContent2Img{
+    background: url(img/aboutForContentGridBoxContent2Img.png) no-repeat;
+    width: 297px;
+    height: 111px;
+}
+.aboutForContentGridBoxContent3Img{
+    background: url(img/aboutForContentGridBoxContent3Img.png) no-repeat;
+    width: 297px;
+    height: 111px;
+}
+.aboutForContentGridBoxContent4Img{
+    background: url(img/aboutForContentGridBoxContent4Img.png) no-repeat;
+    width: 297px;
+    height: 111px;
+}
+.aboutForContentGridBoxContent5Img{
+    background: url(img/aboutForContentGridBoxContent5Img.png) no-repeat;
+    width: 297px;
+    height: 111px;
+}
+.aboutForContentGridBoxContent6Img{
+    background: url(img/aboutForContentGridBoxContent6Img.png) no-repeat;
+    width: 297px;
+    height: 111px;
+}
+.aboutForContentGridBoxContent7Img{
+    background: url(img/aboutForContentGridBoxContent7Img.png) no-repeat;
+    width: 297px;
+    height: 111px;
+}
+.aboutForContentGridBoxContent8Img{
+    background: url(img/aboutForContentGridBoxContent8Img.png) no-repeat;
+    width: 297px;
+    height: 111px;
+}
+
+.aboutForContentGridTittle{
+    font-family: Effra;
+    font-weight: bold;
+    font-size: 36px;
+    text-align: center;
+    margin-top: 105px;
+    margin-bottom: 55px ;
+}
+
+.aboutForContentGridBoxContentDesc{
+    font-size: 16px;
+    font-family: Circe;
+    width: 89%;
+    margin-top: 15px;
+}
+
+
+.aboutTeamContentGridBoxContent1Img{
+    background: url(img/1.png) no-repeat;
+    width: 297px;
+    height: 370px;
+}
+
+.aboutTeamContentGridBoxContent2Img{
+    background: url(img/2.png) no-repeat;
+    width: 297px;
+    height: 370px;
+}
+
+.aboutTeamContentGridBoxContent3Img{
+    background: url(img/3.png) no-repeat;
+    width: 297px;
+    height: 370px;
+}
+
+
+.aboutTeamContentGridBoxContent4Img{
+    background: url(img/4.png) no-repeat;
+    width: 297px;
+    height: 370px;
+}
+
+
+
+.aboutTeamContentGridBoxContent5Img{
+    background: url(img/6.png) no-repeat;
+    width: 297px;
+    height: 370px;
+}
+
+
+
+.aboutTeamContentGridBoxContent6Img{
+    background: url(img/5.png) no-repeat;
+    width: 297px;
+    height: 370px;
+}
+
+
+.aboutTeamContentGridBoxContent7Img{
+    background: url(img/7.png) no-repeat;
+    width: 297px;
+    height: 370px;
+}
+
+
+.aboutTeamContentGridBoxContent8Img{
+    background: url(img/9.png) no-repeat;
+    width: 297px;
+    height: 370px;
+}
+
+.aboutTeamContentGridBox{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 55px;
+}
+
+
+.aboutTeamContentGridBoxContent1{
+    grid-area: 1 / 1 / 2 / 2;
+
+}
+.aboutTeamContentGridBoxContent2{
+    grid-area: 1 / 2 / 2 / 3;
+
+}
+.aboutTeamContentGridBoxContent3{
+    grid-area: 1 / 3 / 2 / 4;
+
+}
+.aboutTeamContentGridBoxContent4{
+    grid-area: 1 / 4 / 2 / 5;
+
+}
+.aboutTeamContentGridBoxContent5{
+
+    grid-area: 2 / 1 / 3 / 2;
+}
+.aboutTeamContentGridBoxContent6{
+
+    grid-area: 2 / 2 / 3 / 3;
+}
+.aboutTeamContentGridBoxContent7{
+
+    grid-area: 2 / 3 / 3 / 4;
+}
+.aboutTeamContentGridBoxContent8{
+    grid-area: 2 / 4 / 3 / 5;
+
+}
+
+.aboutTeamContentGrid{
+    grid-area: 1 / 2 / 2 / 3;
+}
+
+.aboutTeam{
+    background:#ECEDEF ;
+}
+
+
+.aboutTeamContentTittle{
+    font-family: Effra;
+    font-weight: bold;
+    font-size: 36px;
+    text-align: center;
+    margin-top: 105px;
+    margin-bottom: 55px ;
+}
+
+
+.aboutTeamContentGridBoxContentName{
+    margin-top: 15px;
+    margin-bottom: 3px;
+    font-family: Effra;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.aboutTeamContentGridBoxContentDesc{
+    font-size: 16px;
+    font-family: Circe;
+    width: 85%;
+    height: 72px;
+}
+
+.aboutTeamContentGridBoxContentContainerButton{
+    height: 55px;
+    display: flex;
+    place-self: center;
+}
+
+.aboutTeamContentGridBoxContentContainerButtonIcon{
+    background: url("img/aboutTeamContentGridBoxContentContainerButtonIcon.png");
+    width: 24px;
+    height: 24px;
+}
+
+ div.aboutTeamContentGridBoxContentContainerButton > a{
+    text-decoration: underline;
+    color: #E34850;
+}
+
+ .aboutGeogr{
+     background: url("img/aboutGeogr.png");
+     width: 100%;
+     height: 954px;
+ }

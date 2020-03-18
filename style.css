@@ -4662,26 +4662,22 @@ background: url("img/aboutInfoContentGridRight4Icon.png") no-repeat;
 
 .aboutTeamContentGridBoxContent1Img{
     background: url(img/1.png) no-repeat;
-    width: 297px;
     height: 370px;
 }
 
 .aboutTeamContentGridBoxContent2Img{
     background: url(img/2.png) no-repeat;
-    width: 297px;
     height: 370px;
 }
 
 .aboutTeamContentGridBoxContent3Img{
     background: url(img/3.png) no-repeat;
-    width: 297px;
     height: 370px;
 }
 
 
 .aboutTeamContentGridBoxContent4Img{
     background: url(img/4.png) no-repeat;
-    width: 297px;
     height: 370px;
 }
 
@@ -4689,7 +4685,6 @@ background: url("img/aboutInfoContentGridRight4Icon.png") no-repeat;
 
 .aboutTeamContentGridBoxContent5Img{
     background: url(img/6.png) no-repeat;
-    width: 297px;
     height: 370px;
 }
 
@@ -4697,21 +4692,18 @@ background: url("img/aboutInfoContentGridRight4Icon.png") no-repeat;
 
 .aboutTeamContentGridBoxContent6Img{
     background: url(img/5.png) no-repeat;
-    width: 297px;
     height: 370px;
 }
 
 
 .aboutTeamContentGridBoxContent7Img{
     background: url(img/7.png) no-repeat;
-    width: 297px;
     height: 370px;
 }
 
 
 .aboutTeamContentGridBoxContent8Img{
     background: url(img/9.png) no-repeat;
-    width: 297px;
     height: 370px;
 }
 
@@ -4719,42 +4711,59 @@ background: url("img/aboutInfoContentGridRight4Icon.png") no-repeat;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    grid-column-gap: 0px;
+    grid-column-gap: 30px;
     grid-row-gap: 55px;
+    margin-bottom: 129px;
 }
 
 
 .aboutTeamContentGridBoxContent1{
     grid-area: 1 / 1 / 2 / 2;
 
+    border: 1px solid rgba(171, 173, 173, 0.5);
+    border-radius: 5px;
 }
 .aboutTeamContentGridBoxContent2{
     grid-area: 1 / 2 / 2 / 3;
+    border: 1px solid rgba(171, 173, 173, 0.5);
+    border-radius: 5px;
 
 }
 .aboutTeamContentGridBoxContent3{
     grid-area: 1 / 3 / 2 / 4;
+    border: 1px solid rgba(171, 173, 173, 0.5);
+    border-radius: 5px;
 
 }
 .aboutTeamContentGridBoxContent4{
     grid-area: 1 / 4 / 2 / 5;
+    border: 1px solid rgba(171, 173, 173, 0.5);
+    border-radius: 5px;
 
 }
 .aboutTeamContentGridBoxContent5{
 
     grid-area: 2 / 1 / 3 / 2;
+    border: 1px solid rgba(171, 173, 173, 0.5);
+    border-radius: 5px;
 }
 .aboutTeamContentGridBoxContent6{
 
     grid-area: 2 / 2 / 3 / 3;
+    border: 1px solid rgba(171, 173, 173, 0.5);
+    border-radius: 5px;
 }
 .aboutTeamContentGridBoxContent7{
 
     grid-area: 2 / 3 / 3 / 4;
+    border: 1px solid rgba(171, 173, 173, 0.5);
+    border-radius: 5px;
 }
 .aboutTeamContentGridBoxContent8{
     grid-area: 2 / 4 / 3 / 5;
 
+    border: 1px solid rgba(171, 173, 173, 0.5);
+    border-radius: 5px;
 }
 
 .aboutTeamContentGrid{
@@ -4782,6 +4791,7 @@ background: url("img/aboutInfoContentGridRight4Icon.png") no-repeat;
     font-family: Effra;
     font-weight: bold;
     font-size: 18px;
+    margin-left: 22px;
 }
 
 .aboutTeamContentGridBoxContentDesc{
@@ -4789,23 +4799,29 @@ background: url("img/aboutInfoContentGridRight4Icon.png") no-repeat;
     font-family: Circe;
     width: 85%;
     height: 72px;
+    margin-left: 22px;
 }
 
 .aboutTeamContentGridBoxContentContainerButton{
     height: 55px;
     display: flex;
     place-self: center;
+    border-top: 1px solid rgba(171, 173, 173, 0.5);
+    align-items: center;
 }
 
 .aboutTeamContentGridBoxContentContainerButtonIcon{
     background: url("img/aboutTeamContentGridBoxContentContainerButtonIcon.png");
     width: 24px;
     height: 24px;
+    margin-left: 22px;
 }
 
  div.aboutTeamContentGridBoxContentContainerButton > a{
     text-decoration: underline;
     color: #E34850;
+     font-family: Circe;
+     font-size: 16px;
 }
 
  .aboutGeogr{
@@ -4813,3 +4829,505 @@ background: url("img/aboutInfoContentGridRight4Icon.png") no-repeat;
      width: 100%;
      height: 954px;
  }
+
+ .aboutGeogrContentTittle{
+     font-family: Effra;
+     font-weight: bold;
+     font-size: 36px;
+     text-align: center;
+     margin-top: 128px;
+     margin-bottom: 35px;
+ }
+
+
+ .aboutGeogrContentDesc{
+     font-size: 20px;
+     font-family: Circe;
+     text-align: center;
+ }
+
+ .aboutGeogrContentGrid{
+     grid-area: 1 / 2 / 2 / 3;
+ }
+
+ #fonTittle{
+     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(img/aboutTittle.png)no-repeat;
+     width: 100%;
+     height: 634px;
+     margin-top: 122px;
+ }
+
+ #fonText{
+     width: 72%;
+     text-align: -webkit-center;
+ }
+
+ #fonLeft{
+     background: url(img/fonLeft.png) no-repeat;
+     width: 578px;
+     height: 326px;
+     grid-area: 1 / 1 / 2 / 2;
+     position: relative;
+     margin-top: 20%;
+ }
+
+ #fonRightText{
+     margin-top: 24%;
+ }
+
+#fonSell{
+     background: #ECEDEF;
+     height: 100%;
+ }
+
+.dotRed{
+    background: url("img/dotRed.png");
+    width: 14px;
+    height: 49px;
+}
+
+.fonFormTextTittle{
+    display: flex;
+    font-size: 18px;
+    font-family: Circe;
+    font-weight: bold;
+    place-items: center;
+}
+
+.fonFormText li {
+    list-style-type: none; /* Убираем маркеры у списка */
+}
+
+.fonFormText   li:before {
+    content: "- "; /* Добавляем в качестве маркера символ */
+}
+
+
+.fonFormText li{
+    font-family: Circe;
+    color: #6E6E6E;
+    font-size: 18px;
+}
+
+body > div.main > div.serverControl > div > div > div > div.serverControlContentFormGrid > div > div > div > ul{
+    font-family: Circe;
+    color: black;
+    font-size: 18px;
+    margin-bottom: 0px;
+    padding-left: 0px;
+}
+
+#fonGridLeft{
+    grid-area: 1 / 1 / 2 / 3;
+    margin-top: 36px;
+    /* margin-left: 101px; */
+    width: 100%;
+}
+
+#fonGridLeftDesc{
+    line-height: 30px;
+    width: 81%;
+    margin-top: 40px;
+}
+
+.fonFormTextDown{
+    font-family: Circe;
+    color: #6E6E6E;
+    font-size: 18px;
+}
+.fonFormTextDesc{
+    font-family: Circe;
+    color: #6E6E6E;
+    font-size: 18px;
+    width: 95%;
+}
+.fonFormTextBonus{
+    font-family: Circe;
+    color: #6E6E6E;
+    font-size: 18px;
+    margin-bottom: 25px;
+
+}
+
+.fonFormTextBonus strong{
+    font-family: Circe;
+    color: #E34850;
+    font-size: 18px;
+}
+
+.fonFormTextBonusRed{
+    text-decoration: underline;
+    color: #E34850;
+}
+
+#fonControlContentForm {
+    background: #FFFFFF;
+    height: 922px;
+    width: 1278px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+
+#fonControl{
+    height: 1060px;
+}
+.fonFormTextDown{
+    margin-bottom: 25px;
+}
+
+.fonPrimerContentGrid{
+    display: flex;
+    flex-direction: column;
+    grid-area: 1 / 2 / 2 / 3;
+    align-items: center;
+}
+
+.fonPrimerContentGridBoxCardIcon{
+    background: url("img/fonPrimerContentGridBoxCardIcon.png")no-repeat;
+    width: 63px;
+    height: 59px;
+    background-position: 50%;
+    background-position-y: 49%;
+}
+
+.fonPrimerContentGridBox{
+    display: flex;
+    width: 100%;
+    margin-bottom: 78px;
+}
+
+.fonPrimerContentGridBoxCard{
+    width: 100%;
+    height: 63px;
+    background: #E34850;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+}
+
+#fonGridCard{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.fonPrimerContentGridBoxCardText{
+    font-family: Effra;
+    font-weight: bold;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-left: 15px;
+    margin-right: 82px;
+}
+
+.fonPrimerContentGridBoxCardTime{
+    font-family: Effra;
+    font-weight: bold;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.fonPrimerContentGridTittle{
+    font-family: Effra;
+    font-weight: bold;
+    font-size: 36px;
+    margin-top: 85px;
+    margin-bottom: 40px;
+}
+
+#temaTittle{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(img/temaText.png)no-repeat;
+    width: 100%;
+    height: 634px;
+    margin-top: 122px;
+}
+
+#temaText{
+    width: 100%;
+}
+
+#temaLeft{
+    background: url(img/temaLeft.png) no-repeat;
+    width: 578px;
+    height: 326px;
+    grid-area: 1 / 1 / 2 / 2;
+    position: relative;
+    margin-top: 20%;
+}
+
+
+#productTittle{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(img/productTittle.png)no-repeat;
+    width: 100%;
+    height: 634px;
+    margin-top: 122px;
+}
+
+
+#productLeft{
+    background: url(img/productLeft.png) no-repeat;
+    width: 578px;
+    height: 326px;
+    grid-area: 1 / 1 / 2 / 2;
+    position: relative;
+    margin-top: 20%;
+}
+#cafeTittle{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(img/cafeTittle.png)no-repeat;
+    width: 100%;
+    height: 634px;
+    margin-top: 122px;
+}
+
+
+#cafeLeft{
+    background: url(img/cafeLeft.png) no-repeat;
+    width: 578px;
+    height: 326px;
+    grid-area: 1 / 1 / 2 / 2;
+    position: relative;
+    margin-top: 20%;
+}
+#brendTittle{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(img/brendTittle.png)no-repeat;
+    width: 100%;
+    height: 634px;
+    margin-top: 122px;
+}
+
+
+#brendLeft{
+    background: url(img/brendLeft.png) no-repeat;
+    width: 578px;
+    height: 326px;
+    grid-area: 1 / 1 / 2 / 2;
+    position: relative;
+    margin-top: 20%;
+}
+
+
+#kidsTittle{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(img/kidsTittle.png)no-repeat;
+    width: 100%;
+    height: 634px;
+    margin-top: 122px;
+}
+
+
+#kidsLeft{
+    background: url(img/kidsLeft.png) no-repeat;
+    width: 578px;
+    height: 326px;
+    grid-area: 1 / 1 / 2 / 2;
+    position: relative;
+    margin-top: 20%;
+}
+
+#jewerelyTittle{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(img/jewerelyTittle.png)no-repeat;
+    width: 100%;
+    height: 634px;
+    margin-top: 122px;
+}
+
+
+#jewerelyLeft{
+    background: url(img/jewerelyLeft.png) no-repeat;
+    width: 578px;
+    height: 326px;
+    grid-area: 1 / 1 / 2 / 2;
+    position: relative;
+    margin-top: 20%;
+}
+
+
+#marketTittle{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(img/marketTittle.png)no-repeat;
+    width: 100%;
+    height: 634px;
+    margin-top: 122px;
+}
+
+
+#marketLeft{
+    background: url(img/marketLeft.png) no-repeat;
+    width: 578px;
+    height: 326px;
+    grid-area: 1 / 1 / 2 / 2;
+    position: relative;
+    margin-top: 20%;
+}
+#stationTittle{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(img/stationTittle.png)no-repeat;
+    width: 100%;
+    height: 634px;
+    margin-top: 122px;
+}
+
+
+#stationLeft{
+    background: url(img/stationLeft.png) no-repeat;
+    width: 578px;
+    height: 326px;
+    grid-area: 1 / 1 / 2 / 2;
+    position: relative;
+    margin-top: 20%;
+}
+
+#parfumTittle{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(img/parfumTittle.png)no-repeat;
+    width: 100%;
+    height: 634px;
+    margin-top: 122px;
+}
+
+
+#parfumLeft{
+    background: url(img/parfumLeft.png) no-repeat;
+    width: 578px;
+    height: 326px;
+    grid-area: 1 / 1 / 2 / 2;
+    position: relative;
+    margin-top: 20%;
+}
+#mebelTittle{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(img/mebelTittle.png)no-repeat;
+    width: 100%;
+    height: 634px;
+    margin-top: 122px;
+}
+
+
+#mebelLeft{
+    background: url(img/mebelLeft.png) no-repeat;
+    width: 578px;
+    height: 326px;
+    grid-area: 1 / 1 / 2 / 2;
+    position: relative;
+    margin-top: 20%;
+}
+
+
+#sportTittle{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(img/sportTittle.png)no-repeat;
+    width: 100%;
+    height: 634px;
+    margin-top: 122px;
+}
+
+
+#sportLeft{
+    background: url(img/sportLeft.png) no-repeat;
+    width: 578px;
+    height: 326px;
+    grid-area: 1 / 1 / 2 / 2;
+    position: relative;
+    margin-top: 20%;
+}
+
+#rightTittle{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(img/rightTittle.png)no-repeat;
+    width: 100%;
+    height: 239px;
+    margin-top: 122px;
+}
+
+#tittleRights{
+    margin-top: 95px;
+    margin-bottom: 0px;
+    margin-left: 17px;
+}
+
+
+#rightContent{
+    display: flex;
+    flex-direction: column;
+    margin-top: 222px;
+}
+
+#rightInfo{
+    grid-template-columns: 7fr 4fr;
+    grid-template-rows: 1fr;
+    margin-bottom: 0px;
+    grid-column-gap: 0px;
+    margin-bottom: 30px;
+}
+
+#rightFlexRow{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 80px;
+    width: 90%;
+}
+
+#rightIcon1{
+    background: url(img/rightIcon1.png) no-repeat;
+    width: 54px;
+    height: 52px;
+    margin-right: 20px;
+}
+
+#rightIcon2{
+    background: url(img/rightIcon2.png) no-repeat;
+    width: 54px;
+    height: 52px;
+    margin-right: 25px;
+}
+
+#rightIcon3{
+    background: url(img/rightIcon3.png) no-repeat;
+    width: 54px;
+    height: 52px;
+    margin-right: 25px;
+}
+
+.rightsAboutContentGrid{
+    grid-area: 1 / 2 / 2 / 3;
+}
+
+.rightsAboutContentGridTittle{
+    font-family: Effra;
+    font-weight: bold;
+    font-size: 28px;
+    margin-top: 138px;
+    margin-bottom: 37px;
+    text-align: center;
+}
+
+.rightsAboutContentGridTittleDown{
+    font-family: Circe;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 44px;
+}
+
+.aspectIcon{
+    background: url("img/aspectIcon.png") no-repeat;
+    width: 27px;
+    height: 31px;
+    align-self: center;
+    margin-left: 27px;
+    margin-right: 16px;
+}
+
+.aspect{
+    display: flex;
+    border: 1px solid #E34850;
+    height: 59px;
+    border-radius: 5px;
+    margin-left: 30px;
+    padding-right: 50px;
+}
+
+.rightsAboutContentGridContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.aspectText{
+    color: #E34850;
+    align-self: center;
+    font-family: Effra;
+    font-size: 18px;
+}

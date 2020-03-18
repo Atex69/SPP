@@ -2,38 +2,52 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="78caece4-cfe6-4a16-bb77-e04fa48c6df1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/img/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/aboutForContentGridBoxContent1Img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/aboutForContentGridBoxContent2Img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/aboutForContentGridBoxContent3Img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/aboutForContentGridBoxContent4Img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/aboutForContentGridBoxContent5Img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/aboutForContentGridBoxContent6Img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/aboutForContentGridBoxContent7Img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/aboutForContentGridBoxContent8Img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/aboutGeogr.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/aboutInfoContentGridRight1Icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/aboutInfoContentGridRight2Icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/aboutInfoContentGridRight3Icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/aboutInfoContentGridRight4Icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/aboutPlusContentGridLeft.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/aboutTeamContentGridBoxContentContainerButtonIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/aboutTittle.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/aboutWorkContentGridBoxContent1Icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/aboutWorkContentGridBoxContent2Icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/aboutWorkContentGridBoxContent3Icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/aboutWorkContentGridBoxContent4Icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/aboutWorkContentGridBoxContent5Icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/aboutWorkContentGridBoxContent6Icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/indexAbout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/aspectIcon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/brendLeft.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/brendTittle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/cafeLeft.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/cafeTittle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/dotRed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/fonLeft.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/fonPrimerContentGridBoxCardIcon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/fonTittle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/jewerelyLeft.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/jewerelyTittle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/kidsLeft.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/kidsTittle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/marketLeft.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/marketTittle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/mebelLeft.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/mebelTittle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/parfumLeft.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/parfumTittle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/productLeft.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/productTittle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/rightIcon1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/rightIcon2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/rightIcon3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/rightTittle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/sportLeft.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/sportTittle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/stationLeft.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/stationTittle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/temaLeft.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/temaText.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/indexBrend.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/indexCafe.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/indexFon.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/indexJewerely.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/indexKids.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/indexMarket.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/indexMebel.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/indexParfum.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/indexProduct.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/indexRights.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/indexSport.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/indexStation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/indexTema.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/indexAbout.html" beforeDir="false" afterPath="$PROJECT_DIR$/indexAbout.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -125,6 +139,7 @@
       <workItem from="1584322672928" duration="699000" />
       <workItem from="1584360772208" duration="1198000" />
       <workItem from="1584444589028" duration="12150000" />
+      <workItem from="1584484537881" duration="12451000" />
     </task>
     <task id="LOCAL-00001" summary="11.03">
       <created>1583934484327</created>

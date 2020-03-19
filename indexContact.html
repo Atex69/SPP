@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://use.typekit.net/rfc5xgt.css">
+    <meta charset="UTF-8">
+    <title>Cлужба поддержки продаж</title>
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=dbb0e593-11ea-4532-b887-a80c8e577738&lang=ru_RU" type="text/javascript">
+    </script>
+</head>
+<body>
+<div class="header">
+    <div class="menu-headerEfir main-grid">
+        <div class="menu-header-contentEfir">
+            <div class="wrap-logo"></div>
+            <div class="menu-header-wrap">
+
+
+                <ul class="menu-header-text">
+                    <li><a href="#anch1" class="menu-link">О компании</a></li>
+                    <li><a href="#anch2" class="menu-link">Правовая информация</a></li>
+                    <li><a href="#anch3" class="menu-link">FAQ</a></li>
+                    <li><a href="#anch4" class="menu-link">Контакты</a></li>
+                    <li><a href="#anch5" class="menu-link" id="account">
+                        <div id="accountImg"></div>
+                        Личный кабинет</a></li>
+                </ul>
+            </div>
+
+
+        </div>
+        <div class="menu-header-contentRight">
+            <div class="menu-header-phone">
+                <div class="menu-container-right-container-1"> +7 (499) 703-35-40</div>
+                <div class="menu-container-right-container-2"> +7 (812) 309-58-36</div>
+            </div>
+
+            <div class="menu-header-button-container">
+                <a class="btn trigger" href="#">
+                    <button class="menu-header-button">
+                        Заказать звонок
+                    </button>
+                </a>
+            </div>
+        </div>
+
+    </div>
+    <div class="menu-headerDownEfir main-grid">
+        <div class="menu-headerDown-leftEfir">
+            <div class="menu-headerDown-wrap">
+                <ul class="menu-headerDown-text">
+                    <li><a href="#" class="menu-linkDown">Создание аудио и видео эфира</a></li>
+                    <li><a href="#" class="menu-linkDown">Музыка без отчислений в РАО и ВОИС</a></li>
+                    <li><a href="#" class="menu-linkDown">Продажа рекламы</a></li>
+                    <li><a href="#" class="menu-linkDown">Студия звукозаписи</a></li>
+                    <li><a href="#" class="menu-linkDown">Музыка по сферам бизнеса</a></li>
+
+                </ul>
+            </div>
+        </div>
+        <div class="menu-headerDown-rightEfir">
+            <div class="menu-headerDown-demo">
+                Демо-доступ
+            </div>
+
+            <div class="menu-headerDown-button-container">
+                <a class="btn trigger" href="#">
+                    <button class="menu-headerDown-buttonServer">
+                        Попробовать бесплатно 30 дней
+                    </button>
+                </a>
+            </div>
+        </div>
+    </div>
+
+</div>
+<div class="main">
+    <div class="intTittle" id="contactTittle">
+        <div class="serverTittleContent main-grid">
+            <div class="serverTittleContentGrid" id="tittleRights">
+                <div class="serverTittleText" id="rightText">
+                    Контакты
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="map">
+        <div class="mapContent main-grid">
+            <div class="mapContentGrid">
+<div class="mapContentGridLeft">
+    <div class="mapCenter">
+        <div class="mapCenterTittle">
+            Адрес центрального офиса
+        </div>
+        <div class="mapCenterDesc">
+            214000, г. Смоленск,
+            Чуриловский переулок, д.19,
+            офис 505
+        </div>
+    </div>
+    <div class="mapContacts">
+        <div class="mapContactsNumber">
+            <div class="mapContactsNumberTittle">Телефоны</div>
+            <div class="mapContactsNumberText">+7 (499) 703-35-40</div>
+            <div class="mapContactsNumberText"> +7 (812) 309-58-36</div>
+        </div>
+        <div class="mapContactsMail">
+            <div class="mapContactsMailTittle">Email</div>
+            <div class="mapContactsMailText">info@sppltd.ru</div>
+        </div>
+    </div>
+    <div class="mapCompany">
+        <div class="mapCompanyIcon"></div>
+        <div class="mapCompanyText">Реквизиты компании</div>
+    </div>
+</div>
+<div class="mapContentGridRight">
+    <div id="map" style="width: 842px; height: 477px"></div>
+</div>
+            </div>
+        </div>
+    </div>
+    <div class="question" style="
+    height: 999px">
+        <div class="questionServerContent main-grid">
+            <div class="questionServerContentGrid">
+                <div class="questionContentTittle">Возникли вопросы? Просто напишите нам. Мы будем рады вам помочь!
+                </div>
+                <div class="questionContentTittleDesc">Мы ответим в течение 15 минут. Поможем с выбором оптимального
+                    решения, ответим на все вопросы.
+                </div>
+                <div class="questionContentForm" style="
+    text-align: -webkit-center;
+    flex-direction: column;
+">
+                    <div class="questionContentFormLine"></div>
+                    <div class="questionContentFormTittle">Написать сообщение</div>
+                    <div class="questionContentForms" style="
+    display: flex;
+    flex-direction: column;
+    width: 624px;
+">
+                        <div style="
+    display: flex;
+    margin-left: 20px;
+        margin-bottom: -8px;
+        font-family: Circe;
+        font-size: 14px;
+        color:#22262A;
+">
+                            Имя
+                        </div>
+                        <div style="
+    margin-top: 10px;
+">
+                            <input type="text" class="questionLogin" name="login" placeholder="Вашe имя" value="" size="40">
+                        </div>
+                        <div style="
+    display: flex;
+    margin-left: 20px;
+        margin-bottom: -8px;
+         font-family: Circe;
+        font-size: 14px;
+        color:#22262A;
+">
+                            Телефон <div class="redStar">*</div>
+                        </div>
+                        <div style="
+    margin-top: 10px;
+">
+                            <input type="text" class="questionLogin" name="login" placeholder="Ваш телефон" value="" size="40">
+                        </div>
+                        <div style="
+    display: flex;
+    margin-left: 20px;
+        margin-bottom: -8px;
+         font-family: Circe;
+        font-size: 14px;
+        color:#22262A;
+">
+                            E-mail
+                            <div class="redStar">*</div>
+                        </div>
+                        <div style="margin-top: 10px;">
+                            <input type="text" class="questionLogin" name="login" placeholder="Вашe e-mail" value="" size="40">
+                        </div>
+                        <div style="
+    display: flex;
+    margin-left: 17px;
+        margin-bottom: -8px;
+         font-family: Circe;
+        font-size: 14px;
+        color:#22262A;
+">
+                            Как вам ответить
+                        </div>
+                        <div style="margin-top: 10px;">
+                            <select class="questionAnswer">
+                                <option value="mail">На электронную почту</option>
+                                <option value="phone">Мобильный телефон</option>
+                                <option value="homePhone">Домашний телефон</option>
+                            </select>
+                        </div>
+                        <div style="
+    display: flex;
+    margin-left: 17px;
+        margin-bottom: -8px;
+         font-family: Circe;
+        font-size: 14px;
+        color:#22262A;
+">
+
+                            Сообщение
+                        </div>
+                        <div style="margin-top: 10px;">
+                            <textarea type="text" class="questionMessage" name="password" placeholder="Ваше сообщение" value="" size="40"></textarea>
+                        </div>
+
+                        <a href="#">
+                            <button class="questionContentBitton">Отправить</button>
+                        </a>
+
+                        <div class="questionContentDownDesc">
+                            Нажимая кнопку «Отправить», Вы подтверждаете, что даете свое согласие на обработку
+                            персональных данных.<br>
+                            <div class="redStarText">
+                                <div class="redStar">*</div>
+                                Звездочкой отмечены поля обязательные для заполнения.
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footerContent main-grid">
+            <div class="footerContentGrid" style="margin-top: 190px;">
+                <div class="footerContentFlexMain">
+                    <div class="footerContentFlex1">
+                        <div class="flex1Logo"></div>
+                        <div class="flex1Numbers">
+                            Телефоны
+                            <div class="flexNumbers1">+7 (499) 703-35-40</div>
+                            <div class="flexNumbers2">+7 (812) 309-58-36</div>
+                        </div>
+                        <div class="flex1Company">
+                            <div class="flexCompanyIcon"></div>
+                            Реквизиты компании
+                        </div>
+                    </div>
+                    <div class="footerContentFlex2">
+                        <div class="flex2Info">О компании</div>
+                        <div class="flex2Rights">Правовая информация</div>
+                        <div class="flex2Faq">FAQ</div>
+                        <div class="flex2Contact">Контакты</div>
+                    </div>
+                    <div class="footerContentFlex3">
+                        <div class="flex2PlayerMs">Плеер MSBOX</div>
+                        <div class="flex2PoMs">Программное обеспечение MSBOX</div>
+                        <div class="flex2Internet">Интернет-радио MS-Radio</div>
+                        <div class="flex2Base">База музыки MS-base без отчислений
+                            в РАО и ВОИС
+                        </div>
+                        <div class="flex2Studio">Студия звукозаписи</div>
+                        <div class="flex2Adver">Продажа аудио и видео рекламы</div>
+                    </div>
+                    <div class="footerContentFlex4">
+                        <div class="flex4Free">
+                            <a href="#">
+                                <button class="flex4Button1">Попробовать бесплатно</button>
+                            </a>
+                        </div>
+                        <div class="flex4Cabinet">
+                            <a href="#">
+                                <button class="flex4Button2">Личный кабинет</button>
+                            </a>
+                        </div>
+                        <div class="flex4Call">
+                            <a href="#">
+                                <button class="flex4Button3">Заказать звонок</button>
+                            </a>
+                        </div>
+                        <div class="flex4Politic">Политика конфиденциальности</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footerDown">
+        <div class="footerDownContent main-grid">
+
+            <div class="footerDownContentGrid">
+                <div class="footerDownDate">
+                    © 2003-
+                    <script>
+                        document.write(new Date().getFullYear() + " ");
+                    </script>2020
+                    Служба Поддержки Продаж
+                </div>
+
+                <div class="footerWhiteRabbit">
+                    Create with mojo in
+                    <div class="footerDownLogo"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+<script type="text/javascript">
+    // Функция ymaps.ready() будет вызвана, когда
+    // загрузятся все компоненты API, а также когда будет готово DOM-дерево.
+    ymaps.ready(init);
+    function init(){
+        // Создание карты.
+        var myMap = new ymaps.Map("map", {
+
+            center: [54.777990, 32.038450],
+            zoom: 16
+        }, {
+            searchControlProvider: 'yandex#search'
+        });
+        myPlacemark = new ymaps.Placemark([54.777990, 32.038450], {}, {
+            iconLayout: 'default#image',
+            // Своё изображение иконки метки.
+            iconImageHref: 'img/favMap.png',
+            // Размеры метки.
+            iconImageSize: [60, 60]
+
+        });
+
+        myMap.geoObjects.add(myPlacemark);
+    }
+</script>
+<script src="https://kit.fontawesome.com/575cccf86c.js" crossorigin="anonymous"></script>
+<script src="main.js"></script>
+</body>
+</html>

@@ -2,52 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="78caece4-cfe6-4a16-bb77-e04fa48c6df1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/img/aspectIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/brendLeft.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/brendTittle.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/cafeLeft.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/cafeTittle.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/dotRed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/fonLeft.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/fonPrimerContentGridBoxCardIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/fonTittle.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/jewerelyLeft.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/jewerelyTittle.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/kidsLeft.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/kidsTittle.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/marketLeft.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/marketTittle.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/mebelLeft.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/mebelTittle.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/parfumLeft.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/parfumTittle.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/productLeft.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/productTittle.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/rightIcon1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/rightIcon2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/rightIcon3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/rightTittle.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/sportLeft.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/sportTittle.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/stationLeft.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/stationTittle.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/temaLeft.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/temaText.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/indexBrend.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/indexCafe.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/indexFon.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/indexJewerely.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/indexKids.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/indexMarket.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/indexMebel.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/indexParfum.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/indexProduct.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/indexRights.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/indexSport.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/indexStation.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/indexTema.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/contactTittle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/faqTittle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/favMap.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/mapCompanyIcon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/rightsActContentGridBoxElementIcon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/indexCabinet.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/indexContact.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/indexFaq.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/indexAbout.html" beforeDir="false" afterPath="$PROJECT_DIR$/indexAbout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/indexRights.html" beforeDir="false" afterPath="$PROJECT_DIR$/indexRights.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -77,7 +43,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../BabyClub" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -140,6 +106,8 @@
       <workItem from="1584360772208" duration="1198000" />
       <workItem from="1584444589028" duration="12150000" />
       <workItem from="1584484537881" duration="12451000" />
+      <workItem from="1584539694658" duration="3047000" />
+      <workItem from="1584572961919" duration="8445000" />
     </task>
     <task id="LOCAL-00001" summary="11.03">
       <created>1583934484327</created>

@@ -270,11 +270,58 @@ $( "#electric" ).hover(function(){
 
 
 
-    $('.trigger').parent().on('click', function() {
-        $('.modal-wrapper').toggleClass('open');
-        $('.page-wrapper').toggleClass('blur-it');
-        return false;
+        $('.trigger').parent().on('click', function() {
+            $('.modal-wrapper').toggleClass('open');
+            $('.page-wrapper').toggleClass('blur-it');
+            return false;
+        });
+
+        $('.triggers').parent().on('click', function() {
+            $('.modal-wrapperTwo').toggleClass('open');
+            $('.page-wrapper').toggleClass('blur-it');
+            return false;
+        });
+
+        $('.triggerss').parent().on('click', function() {
+            $('.modal-wrapperThree').toggleClass('open');
+            $('.page-wrapper').toggleClass('blur-it');
+            return false;
+        });
+
+
+    $('.modals-wrap').on('click', function (){
+        $('.modals-wrap').removeClass('open');
     });
 
+    $('.sharp').on('click', function () {
+        $('.modal-wrapper,.modal-wrapperTwo,.modal-wrapperThree').removeClass('open');
+
+    });
+
+    $('.head').on('click', function () {
+        $('.modal-wrapper,.modal-wrapperTwo,.modal-wrapperThree').removeClass('open');
+
+    });
+
+    $('.mobile-menu').on('click', function (e) {
+        e.preventDefault();
+        $('.menu-btn').toggleClass('menu-active');
+        $('.mobile-menu').toggleClass('menu-active');
+        $('.mobile-menu__menu-header-wrap').toggleClass('menu-active');
+    });
+    $("ul").click(function(){
+        $('.menu-btn').not(this).removeClass('menu-active');
+        $('.mobile-menu').not(this).removeClass('menu-active');
+        $('.mobile-menu__menu-header-wrap').not(this).removeClass('menu-active');
+
+    });
+    $("button").click(function(){
+        $('.menu-btn').not(this).removeClass('menu-active');
+        $('.mobile-menu').not(this).removeClass('menu-active');
+        $('.mobile-menu__menu-header-wrap').not(this).removeClass('menu-active');
+
+    });
 
 });
+
+

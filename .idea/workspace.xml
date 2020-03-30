@@ -2,21 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="78caece4-cfe6-4a16-bb77-e04fa48c6df1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/img/contactTittle.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/faqTittle.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/favMap.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/mapCompanyIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/rightsActContentGridBoxElementIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/indexCabinet.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/indexContact.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/indexFaq.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/mobileButton.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/sharp-close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/indexMyCabinet.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/indexRights.html" beforeDir="false" afterPath="$PROJECT_DIR$/indexRights.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/indexAbout.html" beforeDir="false" afterPath="$PROJECT_DIR$/indexAbout.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,32 +32,27 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../BabyClub" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ClickPatent" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\GZ\Desktop\WebstormProjects\SPP" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -107,7 +96,18 @@
       <workItem from="1584444589028" duration="12150000" />
       <workItem from="1584484537881" duration="12451000" />
       <workItem from="1584539694658" duration="3047000" />
-      <workItem from="1584572961919" duration="8445000" />
+      <workItem from="1584572961919" duration="8849000" />
+      <workItem from="1584618453659" duration="599000" />
+      <workItem from="1585003207551" duration="619000" />
+      <workItem from="1585004251201" duration="700000" />
+      <workItem from="1585054705058" duration="1489000" />
+      <workItem from="1585066384338" duration="1849000" />
+      <workItem from="1585075863139" duration="571000" />
+      <workItem from="1585084975946" duration="23000" />
+      <workItem from="1585244203870" duration="626000" />
+      <workItem from="1585247078789" duration="611000" />
+      <workItem from="1585396949345" duration="626000" />
+      <workItem from="1585503971641" duration="19071000" />
     </task>
     <task id="LOCAL-00001" summary="11.03">
       <created>1583934484327</created>
@@ -123,7 +123,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584322724934</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="4 20">
+      <created>1584581743992</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1584581743992</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,6 +153,17 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="11.03" />
     <MESSAGE value="15.03" />
-    <option name="LAST_COMMIT_MESSAGE" value="15.03" />
+    <MESSAGE value="4 20" />
+    <option name="LAST_COMMIT_MESSAGE" value="4 20" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1585530302913">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1585530302913" />
+    <state x="461" y="162" key="SettingsEditor" timestamp="1585004225225">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1585004225225" />
   </component>
 </project>

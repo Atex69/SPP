@@ -1,0 +1,323 @@
+@media (min-width: 1326px) and (max-width: 1550px) {
+    #faqId,#contactId{
+        display: block!important;
+    }
+
+
+}
+
+
+@media (min-width: 1201px) and (max-width: 1550px) {
+    #accountId,#contactId,#faqId{
+        display: none;
+    }
+    .soundColumnRightRow1Content{
+        width: 365px;
+    }
+}
+@media (min-width: 801px) and (max-width: 1200px) {
+.menu-header-wrap{
+    display: none;
+}
+}
+
+@media (min-width: 801px) and (max-width: 1550px) {
+    .soundColumnRightRow1Content,.soundColumnRightRow2Content,.soundColumnLeftRow2Content,.soundColumnLeftRow1Content{
+        width: 365px;
+    }
+    .soundColumnCenter {
+        background: url(img/soundTech.png) no-repeat;
+        width: 335px;
+        height: 509px;
+        margin-top: 10%;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        background-position-x: 37%;
+    }
+    .myCabinetContentRight,.myCabinetContentRightForm,.myCabinetContentRightFormLine,.myCabinetContentLeftForm,.myCabinetContentLeftFormLine,.myCabinetContentLeft{
+        width: 100%;
+    }
+    .adversContentRightMoment1Img,.adversContentRightMoment2Img,.adversContentRightMoment3Img{
+        width: 56px;
+    }
+   .playerMsboxContentRightMoment2Img{
+        width: 87px;
+    }
+    .playerMsboxContentRightMoment1Img{
+        width: 100px;
+    }
+    .playerMsboxContentRightMoment3Img{
+        width: 155px;
+    }
+    .myCabinetContentRightFormDesc{
+        margin-bottom: 25px;
+    }
+    .myCabinetContentLeftFormInputs{
+        padding-left: 10px;
+    }
+}
+
+
+
+
+@media (max-width: 800px) and (min-width: 250px){
+    .menu-header-wrap,.menu-header-contentRight,.menu-headerDown-left,.arrowTop,.arrowBottom,.soundColumnCenter,.company-info-menu,.company-info-descDown{
+        display: none!important;
+    }
+    .mobileButton{
+        display: block!important;
+    }
+    #playerMsboxContentRightTittleMobile{
+        display: block;
+        align-self: center;
+    }
+    .adversContentLeft{
+        margin-top: 130%;
+    }
+    .playerMsboxContentRightMoment1Img{
+        width: 66px;
+    }
+    .myCabinetLogin,.myCabinetPassword{
+        width: 314px;
+        height: 49px;
+    }
+    .myCabinetContentLeftForm{
+        text-align: center;
+    }
+    .playerMsboxContentRightMoment2Img{
+        width: 51px;
+    }
+
+    .playerMsboxContentRightMoment3Img{
+        width: 108px;
+    }
+    .playerMsboxContentRightButton{
+        min-width: 161px;
+        height: 49px;
+        font-size: 16px;
+    }
+    #playerMsboxContentRightTittleDeks{
+        display: none;
+    }
+    .playerMsboxContentRightDesc{
+        width: 100%;
+        font-size: 16px;
+    }
+    #sound3Desc{
+        margin-bottom: 25%;
+    }
+    .company-info-tittle,.playerMsboxContentRightMoment1,.playerMsboxContentRightMoment2,.playerMsboxContentRightMoment3{
+        font-size: 14px;
+    }
+    .soundColumnRight{
+        margin-left: 0px;
+        margin-top: 90px;
+    }
+    .playerMsboxContentLeft{
+        background: url("img/playerMsboxContentLeftMobile.png") no-repeat;
+        width: 100%;
+        height: 219px;
+        background-position-y: center;
+        background-position-x: center;
+    }
+
+    .soundColumnRightRow2Content,.soundColumnRightRow1Content,.soundColumnLeftRow2Content,.soundColumnLeftRow1Content{
+        width: 314px;
+    }
+
+    .soundTechContentTittle{
+        font-size: 24px;
+        /* width: 77%; */
+        letter-spacing: 1px;
+    }
+    .company-info-desc {
+        font-family: Effra;
+        font-size: 24px;
+        color: #FFFFFF;
+        width: 68%;
+        font-weight: bold;
+        margin-bottom: 98px;
+        line-height: 35px;
+    }
+    .company-info-content {
+        background-size: cover;
+        width: 100%;
+        height: 595px;
+        background-position-x: 30%;
+    }
+    .company-info-tittle,.company-info-more{
+        color:white;
+    }
+    .company-info-moreArrow{
+        background: url("img/company-info-moreArrowWhite.png");
+        width: 24px;
+        height: 24px;
+        background-position-y: center;
+    }
+
+    .mobile-menu {
+        display: block!important;
+        right: 27px;
+        top: 40px;
+    }
+    .menu-header{
+        margin-left: 0px;
+    }
+    .wrap-logo{
+        margin-left: 55px;
+        margin-right: 55px;
+        margin-top: 20px;
+        zoom: 87%;
+    }
+    .menu-headerDown-button{
+        min-width: 263px;
+    }
+
+    .soundTechContentWrapper{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .menu-headerDown-demo{
+        margin-left: 0px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+
+    }
+    .playerMsboxContentGrid,.myCabinetContentGrid{
+        display: flex;
+        flex-direction: column;
+    }
+    .adversContentGrid,.aboutContentGrid{
+        display: flex;
+        flex-direction: column;
+    }
+    .myCabinetContentLeft,.myCabinetContentGrid,.myCabinetContentLeftFormLine,.myCabinetContentRight,.myCabinetContentRightForm,.myCabinetContentRightFormLine{
+        width: 100%;
+    }
+.nameTextInput,.passTextInput{
+    margin-left: 25%;
+}
+    .myCabinetContentRightFormDesc{
+        width: 85%;
+    }
+
+    .myCabinetContentRightFormDesc br,.adversContentLeft{
+        display: none;
+    }
+    .adversContentRight {
+        margin-top: 104%;
+    }
+
+    .adversContentRight{
+        width: 120%;
+        height: 564px;
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("img/adversContentRight.png") no-repeat;
+    }
+    .adversContentRightTittle{
+        font-size: 22px;
+        color: white;
+        text-align-last: center;
+    }
+    .adversContentRightDesc{
+        font-size: 16px;
+        color: white;
+        width: 87%;
+    }
+    .advMom{
+        font-size: 14px;
+        color: white;
+    }
+    .adverRightButton{
+        text-align: center;
+    }
+    .advers{
+        height: 982px;
+    }
+.aboutContentLeftTittle,.myCabinetContentRightFormTittle,.questionContentTittle{
+    font-size: 22px;
+}
+.aboutContentLeftDesc{
+    font-size: 14px;
+    padding: 0 30px 0 30px;
+}
+    .myCabinetContentRightFormDesc{
+        font-size: 14px;
+    }
+ .aboutContentRightUl{
+        font-size: 16px;
+    }
+.aboutContentLeft{
+    margin-bottom: 60px;
+}
+   .questionContentGrid,.questionContentForms{
+       width: 100%   ;
+   }
+    .adversContentRightTittle{
+        margin-top: 40px;
+    }
+    .questionContentForm{
+        text-align: -webkit-center;
+        flex-direction: column;
+    }
+    .questionContentGrid,.aboutContent ,.myCabinetContent ,.playerMsboxContent,.questionContent,.footerContent,.footerDownContent  {
+        display: flex;
+    }
+    .questionContentForm,.aboutContentRightContainer{
+        width: 100%;
+    }
+    .aboutContentLeftTittle,.playerMsboxContentRight,.aboutButtonContainer,.footerContent,.footerDownContent  {
+        padding: 0 30px 0 30px;
+    }
+    .questionLogin,.questionMessage{
+        width: 85%;
+    }
+    .questionAnswer{
+        width: 90%;
+    }
+    .questFormInputs, .questPhoneText, .questPhoneMail,.questAnswerText,.questMessageText{
+        margin-left: 53px;
+    }
+    .questionContentDownDesc{
+        width: 100%;
+        text-align: center;
+    }
+    .redStarText{
+        justify-content: center;
+    }
+    .footer,.footerDown {
+        height: 100%;
+        width: 100%;
+    }
+    .footerContentFlexMain{
+        flex-direction: column;
+    }
+    .flex4Politic,.footerWhiteRabbit{
+        margin-left: 0px;
+    }
+    #footerContentFlexMobile{
+        display: flex;
+    }
+    #footerContentFlexMobileNone{
+        display: none;
+    }
+
+    .footerContentFlex4Border{
+        display: block;
+        width: 100%;
+        height: 40px;
+        border-bottom: 1px solid #707070;
+        padding-left: 0px;
+    }
+
+    .footerDownContentGrid{
+        flex-direction: column-reverse;
+    }
+    .myCabinetContent{
+        background: #D8D8D8;
+    }
+
+}
+
+

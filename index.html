@@ -3,6 +3,7 @@
 <head>
     <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="media.css">
     <link rel="stylesheet" href="https://use.typekit.net/rfc5xgt.css">
     <meta charset="UTF-8">
     <title>Cлужба поддержки продаж</title>
@@ -14,32 +15,76 @@
     <div class="menu-header main-grid">
         <div class="menu-header-content">
             <div class="mobile-menu">
-                <a href="#" class="menu-btn">
-                    <span></span>
-                </a>
+                <div class="spanBtn">  <a href="#" class="menu-btn">
+                 <span></span>
+                </a></div>
             </div>
             <div class="mobile-menu__menu-header-wrap">
                 <div class="menu-logo-container">
                     <div class="menu-logo"></div>
                 </div>
-                <ul class="mobile-menu__menu-header-text">
+
+                <div class="mobileMenuButtons">
+                    <a class="btn triggerss" href="#">
+                        <div class="menu-headerDown-demo">
+
+                            Демо-доступ
+                        </div>
+                    </a>
+
+                    <a class="btn triggers" href="#">
+                        <button class="menu-headerDown-button">
+                            Попробовать бесплатно 30 дней
+                        </button>
+                    </a>
+
+                </div>
+
+                <div class="mobile-menu-choises">
+                    <a class="mobile-menu-choise">Создание аудио<br>
+                        и видео эфира</a>
 
 
-                </ul>
-                <button class="menu-header-button mobile">
-                    <a class="btn trigger" href="#"> Заказать звонок</a>
-                </button>
+
+                    <a class="mobile-menu-choise">Музыка без отчислений<br>
+                        в РАО и ВОИС</a>
+
+
+                    <a class="mobile-menu-choise">Продажа аудио и видео<br>
+                        рекламы</a>
+
+
+
+                        <a class="mobile-menu-choise">Студия звукозаписи</a>
+
+
+
+                            <a class="mobile-menu-choise">Музыка по сферам<br>
+                        бизнеса</a>
+
+                </div>
+             <a href="#anch5" class="menu-link" id="accountMobile">
+                    <div id="accountImg"></div>
+                    Личный кабинет</a>
+                <div class="footerContentFlex2Mobile">
+                    <div class="flex2Info"><a href="#anch1" class="menu-link">О компании</a></div>
+                    <div class="flex2Rights"><a href="#anch2" class="menu-link">Правовая информация</a></div>
+                    <div class="flex2Faq"><a href="#anch3" class="menu-link">FAQ</a></div>
+                    <div class="flex2Contact"><a href="#anch4" class="menu-link">Контакты</a></div>
+                </div>
+
+
             </div>
             <div class="wrap-logo"></div>
             <div class="menu-header-wrap">
 
 
                 <ul class="menu-header-text">
-                    <li><a href="#anch1" class="menu-link">О компании</a></li>
-                    <li><a href="#anch2" class="menu-link">Правовая информация</a></li>
-                    <li><a href="#anch3" class="menu-link">FAQ</a></li>
-                    <li><a href="#anch4" class="menu-link">Контакты</a></li>
-                    <li><a href="#anch5" class="menu-link" id="account">
+                    <li id="abboutId"><a href="#anch1" class="menu-link">О компании</a></li>
+                    <li id="screenId"><a href="#anch2" class="menu-link">Правовая информация</a></li>
+                    <li id="faqId"><a href="#anch3" class="menu-link">FAQ</a></li>
+                    <li id="contactId"><a href="#anch4" class="menu-link">Контакты</a></li>
+                    <li id="accountId"><a href="#anch5" class="menu-link" id="account">
                         <div id="accountImg"></div>
                         Личный кабинет</a></li>
                 </ul>
@@ -633,8 +678,10 @@
                     эфира для бизнеса.
                 </div>
                 <div class="company-info-descDown">Просто. Быстро. Надежно</div>
-
+<a href="#" class="company-info-moreArrows">
                 <div class="company-info-more">Подробности</div>
+    <div class="company-info-moreArrow"></div>
+</a>
             </div>
         </div>
     </div>
@@ -731,9 +778,9 @@
     <div class="playerMsbox">
         <div class="playerMsboxContent main-grid">
             <div class="playerMsboxContentGrid">
-                <div class="playerMsboxContentLeft"></div>
+                              <div class="playerMsboxContentLeft"></div>
                 <div class="playerMsboxContentRight">
-                    <div class="playerMsboxContentRightTittle">
+                    <div class="playerMsboxContentRightTittle" id="playerMsboxContentRightTittleDeks">
                         Плеер MSBOX
                     </div>
                     <div class="playerMsboxContentRightDesc">
@@ -779,48 +826,8 @@
                 </div>
 
                 <div class="advWorkContentMain">
-                    <div class="advWorkContentTop1">
-                        <div class="advWorkContentTop1Img"></div>
-                        <div class="advWorkContentTop1Tittle advTittle">Запустим ваш эфир</div>
-                        <div class="advWorkContentTop1Desc advDesc">Предоставим готовое и настроенное к работе
-                            оборудование. Подключите и наслаждайтесь!
-                        </div>
-                    </div>
-                    <div class="advWorkContentTop2">
-                        <div class="advWorkContentTop2Img"></div>
-                        <div class="advWorkContentTop2Tittle advTittle">Музыка без отчислений</div>
-                        <div class="advWorkContentTop2Desc advDesc">Собственная база функциональной музыки без
-                            отчислений в РАО иВОИС.
-                        </div>
-                    </div>
-                    <div class="advWorkContentTop3">
-                        <div class="advWorkContentTop3Img"></div>
-                        <div class="advWorkContentTop3Tittle advTittle">Юридическая поддержка</div>
-                        <div class="advWorkContentTop3Desc advDesc">Наш юридический отдел в течение суток предоставит
-                            письменный ответ на любые обращения РАО или ВОИС.
-                        </div>
-                    </div>
-                    <div class="advWorkContentBottom1">
-                        <div class="advWorkContentBottom1Img"></div>
-                        <div class="advWorkContentBottom1Tittle advTittle">На связи 24/7</div>
-                        <div class="advWorkContentBottom1Desc advDesc">Наша команда на связи 24 часа в сутки 7 дней в
-                            неделю.
-                        </div>
-                    </div>
-                    <div class="advWorkContentBottom2">
-                        <div class="advWorkContentBottom2Img"></div>
-                        <div class="advWorkContentBottom2Tittle advTittle">Создадим яркий ролик</div>
-                        <div class="advWorkContentBottom2Desc advDesc">Собственная студия позволяет в кратчайшие сроки
-                            разработать продающий рекламный контент.
-                        </div>
-                    </div>
-                    <div class="advWorkContentBottom3">
-                        <div class="advWorkContentBottom3Img"></div>
-                        <div class="advWorkContentBottom3Tittle advTittle">Организуем продажу эфира</div>
-                        <div class="advWorkContentBottom3Desc advDesc">Реклама – мощный инструмент в продвижении бренда!
-                            Мы сделаем ваш эфир прибыльным.
-                        </div>
-                    </div>
+
+
                 </div>
             </div>
         </div>
@@ -833,14 +840,7 @@
                         <div class="myCabinetContentLeftFormLine"></div>
                         <div class="myCabinetContentLeftFormTittle" >Личный кабинет</div>
                         <div class="myCabinetContentLeftFormInputs">
-                            <div style="
-    display: flex;
-        margin-left: 118px;
-        margin-bottom: -8px;
-        font-family: Circe;
-        font-size: 14px;
-        color:#22262A;
-">
+                            <div class="nameTextInput">
                                Логин
                             </div>
                             <div style="
@@ -849,14 +849,7 @@
                                 <input type="text" class="myCabinetLogin" name="login" placeholder="Ваш логин" value="" size="40">
                             </div>
 
-                            <div style="
-    display: flex;
-        margin-left: 118px;
-        margin-bottom: -8px;
-        font-family: Circe;
-        font-size: 14px;
-        color:#22262A;
-">
+                            <div class="passTextInput">
                                 Пароль
                             </div>
                             <div style="
@@ -918,9 +911,11 @@
 
                             </div>
                         </div>
+                        <div class="adverRightButton">
                         <a href="#">
                             <button class="adversContentRightBitton">Хочу разместить рекламу</button>
                         </a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -951,11 +946,13 @@
                             С каждым днем нас становится больше. Присоединяйтесь и Вы!
                         </div>
                     </div>
+                    <div class="aboutButtonContainer">
                     <a href="#">
                         <button class="aboutContentLeftButton">
                             Подробности о компании
                         </button>
                     </a>
+                    </div>
                 </div>
                 <div class="aboutContentRight">
                     <div class="aboutContentRightContainer">
@@ -996,19 +993,8 @@
 ">
                     <div class="questionContentFormLine"></div>
                     <div class="questionContentFormTittle">Написать сообщение</div>
-                    <div class="questionContentForms" style="
-    display: flex;
-    flex-direction: column;
-    width: 624px;
-">
-                        <div style="
-    display: flex;
-    margin-left: 20px;
-        margin-bottom: -8px;
-        font-family: Circe;
-        font-size: 14px;
-        color:#22262A;
-">
+                    <div class="questionContentForms">
+                        <div class="questFormInputs" >
                             Имя
                         </div>
                         <div style="
@@ -1016,14 +1002,7 @@
 ">
                             <input type="text" class="questionLogin" name="login" placeholder="Вашe имя" value="" size="40">
                         </div>
-                        <div style="
-    display: flex;
-    margin-left: 20px;
-        margin-bottom: -8px;
-         font-family: Circe;
-        font-size: 14px;
-        color:#22262A;
-">
+                        <div  class="questPhoneText" >
                             Телефон <div class="redStar">*</div>
                         </div>
                         <div style="
@@ -1031,28 +1010,14 @@
 ">
                             <input type="text" class="questionLogin" name="login" placeholder="Ваш телефон" value="" size="40">
                         </div>
-                        <div style="
-    display: flex;
-    margin-left: 20px;
-        margin-bottom: -8px;
-         font-family: Circe;
-        font-size: 14px;
-        color:#22262A;
-">
+                        <div  class="questPhoneMail">
                             E-mail
                         <div class="redStar">*</div>
                         </div>
                         <div style="margin-top: 10px;">
                             <input type="text" class="questionLogin" name="login" placeholder="Вашe e-mail" value="" size="40">
                         </div>
-                        <div style="
-    display: flex;
-    margin-left: 17px;
-        margin-bottom: -8px;
-         font-family: Circe;
-        font-size: 14px;
-        color:#22262A;
-">
+                        <div class="questAnswerText" >
                        Как вам ответить
                         </div>
                         <div style="margin-top: 10px;">
@@ -1062,14 +1027,7 @@
                     <option value="homePhone">Домашний телефон</option>
                 </select>
                         </div>
-                        <div style="
-    display: flex;
-    margin-left: 17px;
-        margin-bottom: -8px;
-         font-family: Circe;
-        font-size: 14px;
-        color:#22262A;
-">
+                        <div class="questMessageText" >
 
                         Сообщение
                         </div>
@@ -1103,9 +1061,9 @@
                 <div class="footerContentFlexMain">
                     <div class="footerContentFlex1">
                         <div class="flex1Logo"></div>
-                        <div class="flex1Numbers">
+                        <div class="flex1Numbers" >
                             Телефоны
-                            <div class="flexNumbers1"><a href="tel:+7 (987) 090 90 97">+7 (499) 703-35-40</a></div>
+                            <div class="flexNumbers1" id="flexNumber"><a href="tel:+7 (987) 090 90 97">+7 (499) 703-35-40</a></div>
                             <div class="flexNumbers2"><a href="tel:+7 (987) 090 90 97">+7 (812) 309-58-36</a></div>
                         </div>
                         <div class="flex1Company">
@@ -1113,23 +1071,7 @@
                             Реквизиты компании
                         </div>
                     </div>
-                    <div class="footerContentFlex2">
-                        <div class="flex2Info">О компании</div>
-                        <div class="flex2Rights">Правовая информация</div>
-                        <div class="flex2Faq">FAQ</div>
-                        <div class="flex2Contact">Контакты</div>
-                    </div>
-                    <div class="footerContentFlex3">
-                        <div class="flex2PlayerMs">Плеер MSBOX</div>
-                        <div class="flex2PoMs">Программное обеспечение MSBOX</div>
-                        <div class="flex2Internet">Интернет-радио MS-Radio</div>
-                        <div class="flex2Base">База музыки MS-base без отчислений
-                            в РАО и ВОИС
-                        </div>
-                        <div class="flex2Studio">Студия звукозаписи</div>
-                        <div class="flex2Adver">Продажа аудио и видео рекламы</div>
-                    </div>
-                    <div class="footerContentFlex4">
+                    <div class="footerContentFlex4" id="footerContentFlexMobile">
                         <div class="flex4Free">
                             <a class="btn triggers" href="#">
                                 <button class="flex4Button1">Попробовать бесплатно</button>
@@ -1147,6 +1089,42 @@
                         </div>
                         <div class="flex4Politic">Политика конфиденциальности</div>
                     </div>
+                    <div class="footerContentFlex2">
+                        <div class="flex2Info">О компании</div>
+                        <div class="flex2Rights">Правовая информация</div>
+                        <div class="flex2Faq">FAQ</div>
+                        <div class="flex2Contact">Контакты</div>
+                        <div class="footerContentFlex4Border"></div>
+                    </div>
+                    <div class="footerContentFlex3">
+                        <div class="flex2PlayerMs">Плеер MSBOX</div>
+                        <div class="flex2PoMs">Программное обеспечение MSBOX</div>
+                        <div class="flex2Internet">Интернет-радио MS-Radio</div>
+                        <div class="flex2Base">База музыки MS-base без отчислений
+                            в РАО и ВОИС
+                        </div>
+                        <div class="flex2Studio">Студия звукозаписи</div>
+                        <div class="flex2Adver">Продажа аудио и видео рекламы</div>
+                    </div>
+                    <div class="footerContentFlex4" id="footerContentFlexMobileNone">
+                        <div class="flex4Free">
+                            <a class="btn triggers" href="#">
+                                <button class="flex4Button1">Попробовать бесплатно</button>
+                            </a>
+                        </div>
+                        <div class="flex4Cabinet">
+                            <a href="#">
+                                <button class="flex4Button2">Личный кабинет</button>
+                            </a>
+                        </div>
+                        <div class="flex4Call">
+                            <a class="btn trigger" href="#">
+                                <button class="flex4Button3">Заказать звонок</button>
+                            </a>
+                        </div>
+                        <div class="flex4Politic">Политика конфиденциальности</div>
+                    </div>
+                    <div class="footerContentFlex4Border"></div>
                 </div>
             </div>
         </div>

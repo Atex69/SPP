@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="78caece4-cfe6-4a16-bb77-e04fa48c6df1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/img/mobileButton.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/sharp-close.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/indexMyCabinet.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/.company-info-contentMobile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/Group 557.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/adversContentRight.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/company-info-moreArrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/company-info-moreArrowWhite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/playerMsboxContentLeftMobile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/indexAbout.html" beforeDir="false" afterPath="$PROJECT_DIR$/indexAbout.html" afterDir="false" />
@@ -19,9 +23,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -107,7 +111,13 @@
       <workItem from="1585244203870" duration="626000" />
       <workItem from="1585247078789" duration="611000" />
       <workItem from="1585396949345" duration="626000" />
-      <workItem from="1585503971641" duration="19071000" />
+      <workItem from="1585503971641" duration="19363000" />
+      <workItem from="1585608131867" duration="218000" />
+      <workItem from="1585608369303" duration="6105000" />
+      <workItem from="1585767777348" duration="8135000" />
+      <workItem from="1585833560549" duration="117000" />
+      <workItem from="1586116759596" duration="577000" />
+      <workItem from="1586122027702" duration="11136000" />
     </task>
     <task id="LOCAL-00001" summary="11.03">
       <created>1583934484327</created>
@@ -130,7 +140,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584581743992</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="5 06">
+      <created>1585533994336</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1585533994336</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -154,16 +171,25 @@
     <MESSAGE value="11.03" />
     <MESSAGE value="15.03" />
     <MESSAGE value="4 20" />
-    <option name="LAST_COMMIT_MESSAGE" value="4 20" />
+    <MESSAGE value="5 06" />
+    <option name="LAST_COMMIT_MESSAGE" value="5 06" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1585530302913">
+    <state x="585" y="114" key="CommitChangelistDialog2" timestamp="1585533990338">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1585530302913" />
+    <state x="585" y="114" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1585533990338" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1586116794419">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1586116794419" />
     <state x="461" y="162" key="SettingsEditor" timestamp="1585004225225">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1585004225225" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1585534000104">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1585534000104" />
   </component>
 </project>

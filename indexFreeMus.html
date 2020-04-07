@@ -3,6 +3,7 @@
 <head>
     <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="media.css">
     <link rel="stylesheet" href="https://use.typekit.net/rfc5xgt.css">
     <meta charset="UTF-8">
     <title>Cлужба поддержки продаж</title>
@@ -560,21 +561,40 @@
                 <div class="footerContentFlexMain">
                     <div class="footerContentFlex1">
                         <div class="flex1Logo"></div>
-                        <div class="flex1Numbers">
+                        <div class="flex1Numbers" >
                             Телефоны
-                            <div class="flexNumbers1">+7 (499) 703-35-40</div>
-                            <div class="flexNumbers2">+7 (812) 309-58-36</div>
+                            <div class="flexNumbers1" id="flexNumber"><a href="tel:+7 (987) 090 90 97">+7 (499) 703-35-40</a></div>
+                            <div class="flexNumbers2"><a href="tel:+7 (987) 090 90 97">+7 (812) 309-58-36</a></div>
                         </div>
                         <div class="flex1Company">
                             <div class="flexCompanyIcon"></div>
                             Реквизиты компании
                         </div>
                     </div>
+                    <div class="footerContentFlex4" id="footerContentFlexMobile">
+                        <div class="flex4Free">
+                            <a class="btn triggers" href="#">
+                                <button class="flex4Button1">Попробовать бесплатно</button>
+                            </a>
+                        </div>
+                        <div class="flex4Cabinet">
+                            <a href="#">
+                                <button class="flex4Button2">Личный кабинет</button>
+                            </a>
+                        </div>
+                        <div class="flex4Call">
+                            <a class="btn trigger" href="#">
+                                <button class="flex4Button3">Заказать звонок</button>
+                            </a>
+                        </div>
+                        <div class="flex4Politic">Политика конфиденциальности</div>
+                    </div>
                     <div class="footerContentFlex2">
                         <div class="flex2Info">О компании</div>
                         <div class="flex2Rights">Правовая информация</div>
                         <div class="flex2Faq">FAQ</div>
                         <div class="flex2Contact">Контакты</div>
+                        <div class="footerContentFlex4Border"></div>
                     </div>
                     <div class="footerContentFlex3">
                         <div class="flex2PlayerMs">Плеер MSBOX</div>
@@ -586,9 +606,9 @@
                         <div class="flex2Studio">Студия звукозаписи</div>
                         <div class="flex2Adver">Продажа аудио и видео рекламы</div>
                     </div>
-                    <div class="footerContentFlex4">
+                    <div class="footerContentFlex4" id="footerContentFlexMobileNone">
                         <div class="flex4Free">
-                            <a href="#">
+                            <a class="btn triggers" href="#">
                                 <button class="flex4Button1">Попробовать бесплатно</button>
                             </a>
                         </div>
@@ -598,16 +618,19 @@
                             </a>
                         </div>
                         <div class="flex4Call">
-                            <a href="#">
+                            <a class="btn trigger" href="#">
                                 <button class="flex4Button3">Заказать звонок</button>
                             </a>
                         </div>
                         <div class="flex4Politic">Политика конфиденциальности</div>
                     </div>
+                    <div class="footerContentFlex4Border"></div>
                 </div>
             </div>
         </div>
     </div>
+
+
     <div class="footerDown">
         <div class="footerDownContent main-grid">
 
@@ -616,7 +639,7 @@
                     © 2003-
                     <script>
                         document.write(new Date().getFullYear() + " ");
-                    </script>2020 2020
+                    </script>
                     Служба Поддержки Продаж
                 </div>
 

@@ -2,17 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="78caece4-cfe6-4a16-bb77-e04fa48c6df1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/img/.company-info-contentMobile.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/Group 557.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/adversContentRight.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/company-info-moreArrow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/company-info-moreArrowWhite.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/playerMsboxContentLeftMobile.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/aboutGeogrMobile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/aboutPlusContentGridLeftMobile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/aboutTittleMobile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/contactTittleMobile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/faqTittleMobile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/fonLeftMobile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/fonTittleMobile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/mobileLogo.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Group 557.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/indexAbout.html" beforeDir="false" afterPath="$PROJECT_DIR$/indexAbout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/indexBrend.html" beforeDir="false" afterPath="$PROJECT_DIR$/indexBrend.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/indexCabinet.html" beforeDir="false" afterPath="$PROJECT_DIR$/indexCabinet.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/indexCafe.html" beforeDir="false" afterPath="$PROJECT_DIR$/indexCafe.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/indexContact.html" beforeDir="false" afterPath="$PROJECT_DIR$/indexContact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/indexEfir.html" beforeDir="false" afterPath="$PROJECT_DIR$/indexEfir.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/indexFaq.html" beforeDir="false" afterPath="$PROJECT_DIR$/indexFaq.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/indexFon.html" beforeDir="false" afterPath="$PROJECT_DIR$/indexFon.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media.css" beforeDir="false" afterPath="$PROJECT_DIR$/media.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -118,6 +126,8 @@
       <workItem from="1585833560549" duration="117000" />
       <workItem from="1586116759596" duration="577000" />
       <workItem from="1586122027702" duration="11136000" />
+      <workItem from="1586177991515" duration="4880000" />
+      <workItem from="1586212281645" duration="10772000" />
     </task>
     <task id="LOCAL-00001" summary="11.03">
       <created>1583934484327</created>
@@ -175,10 +185,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="5 06" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="585" y="114" key="CommitChangelistDialog2" timestamp="1585533990338">
+    <state x="585" y="114" key="CommitChangelistDialog2" timestamp="1586135794964">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="585" y="114" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1585533990338" />
+    <state x="585" y="114" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1586135794964" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1586116794419">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

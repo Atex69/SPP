@@ -167,10 +167,17 @@ button{
     display: flex;
     width: 100%;
     justify-content: space-around;
-    align-items: center;
+
     flex-wrap: nowrap;
     margin-right: 40px;
     background: #FFFFFF;
+}
+#adversContentRightTittleEfirMobile{
+    display: none;
+}
+
+#serverServiceContentTittleMobile{
+    display: none;
 }
 
 .main-grid {
@@ -4890,10 +4897,13 @@ div.aboutTeamContentGridBoxContentContainerButton > a{
 }
 
 #fonTittle{
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(img/aboutTittle.png)no-repeat;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(img/fonTittle.png)no-repeat;
     width: 100%;
-    height: 634px;
+    height: 643px;
     margin-top: 122px;
+}
+#intFiveContentGridRightTittleMobile{
+    display: none;
 }
 
 #fonText{
@@ -5042,6 +5052,7 @@ body > div.main > div.serverControl > div > div > div > div.serverControlContent
     display: flex;
     align-items: center;
     border-radius: 5px;
+    padding: 0px 10px 0px 10px;
 }
 
 #fonGridCard{
@@ -6101,6 +6112,9 @@ display: none;
     font-size: 14px;
     color:#22262A;
 }
+#aboutPlusContentGridRightTittleMobile{
+    display: none;
+}
 
 .passTextInput{
     display: flex;
@@ -6140,4 +6154,22 @@ display: none;
     display: none;
 }
 
+.aboutNav{
+    margin-left: 14%;
+    font-family: Effra;
+    font-size: 13px;
+    color: white;
+    display: flex;
+    margin-top: 15px;
+}
 
+.aboutNav a{
+    font-family: Effra;
+    font-size: 13px;
+    color: white;
+}
+
+
+#headerMobile{
+    display: none;
+}

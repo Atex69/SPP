@@ -2328,8 +2328,11 @@ border-right: 1px solid black;
     flex-direction: column;
     grid-area: 1 / 2 / 2 / 3;
     align-items: center;
-    margin-top: 3%;
     margin-left: 40px;
+    margin-top: 1%;
+}
+#aboutPlusContentGridRightTittleMobiles{
+    display: none;
 }
 
 .serverTittleDown{
@@ -2947,7 +2950,9 @@ border-right: 1px solid black;
     margin-right: 7px;
 }
 
-
+.serverQuestContentDownDescMobile{
+    display: none;
+}
 
 .serverQuestContentDownDesc{
     display: flex;
@@ -3054,6 +3059,11 @@ border-right: 1px solid black;
 .serverQuestContentDownButtonContainer{
     text-align: -webkit-center;
     margin-top: 30px;
+}
+.serverQuestContentDownButtonContainerMobile{
+    text-align: -webkit-center;
+    margin-top: 30px;
+    display: flex ;
 }
 
 .serverQuestContentDownDescRow1Column1 {
@@ -3720,7 +3730,7 @@ border-right: 1px solid black;
 
 
 .serverQuestContentDownDescRow2ColumnIcon{
-    background: url("img/serverQuestContentDownDescRow1ColumnIcon.png") no-repeat;
+    background: url("img/serverQuestContentDownDescRow2ColumnIcon.png") no-repeat;
     width: 35px;
     height: 28px;
     margin-right: 7px;
@@ -3735,6 +3745,10 @@ border-right: 1px solid black;
     grid-area: 1 / 2 / 2 / 3;
     align-items: center;
 }
+.serverQuestContentDownDescRow1{
+    margin-right: 10px;
+}
+
 
 .freeMusListen{
     background: url("img/freeMusListenContentGrid.png") no-repeat;
@@ -5581,7 +5595,7 @@ body > div.main > div.serverControl > div > div > div > div.serverControlContent
 }
 
 #mainMyCabinet{
-   padding-top: 200px;
+   padding-top: 140px;
 }
 
 .mainCabinetTittle{
@@ -5590,7 +5604,8 @@ body > div.main > div.serverControl > div > div > div > div.serverControlContent
     font-weight: bold;
     font-size: 50px;
     justify-self: center;
-    margin-bottom: 55px;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 #mainCabinetGrid{
@@ -5906,7 +5921,12 @@ display: none;
     display: none;
 }
 
-
+#intDownTittleMobile{
+    display: none;
+}
+#intDownTittle{
+    display: none;
+}
 
 
 .mobile-menu__menu-header-wrap {
@@ -6153,20 +6173,38 @@ display: none;
     padding-left: 0px;
     display: none;
 }
+#msMobile{
+    display: none;
+}
 
 .aboutNav{
-    margin-left: 14%;
+    position: absolute;
+    left: -5%;
+    margin-left: 7%;
     font-family: Effra;
     font-size: 13px;
     color: white;
     display: flex;
     margin-top: 15px;
+
+    display: flex;
+    flex-direction: row;
+    white-space: pre;
 }
 
 .aboutNav a{
     font-family: Effra;
     font-size: 13px;
     color: white;
+}
+
+#aboutCont{
+    color: #A2A2A2;
+    margin-top: 0px;
+}
+
+#aboutCont a{
+    color: #A2A2A2;
 }
 
 

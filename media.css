@@ -2,6 +2,25 @@
     #faqId,#contactId{
         display: block!important;
     }
+    #aboutPlusContentGridRightTittleDekst,.intFiveContentGridRightDesc{
+        width: 168%;
+    }
+    .free2Img{
+        width: 78px;
+    }
+    #fonGridLeft{
+        width: 97%;
+    }
+    .aboutNav{
+        position: absolute;
+        left: -4%;
+    }
+    .serverTittleText{
+        width: 104%;
+    }
+    .free3Img{
+        width: 43px;
+    }
 
 
 }
@@ -13,6 +32,9 @@
     }
     .soundColumnRightRow1Content{
         width: 365px;
+    }
+    .efirNav{
+        margin-top: 11%;
     }
     .menu-header-text li {
         margin-right: 15px;
@@ -66,6 +88,16 @@
     #account,.menu-headerDown-demo{
         display: none;
     }
+    .intFiveContentGrid{
+        grid-column-gap: 30px;
+    }
+
+
+    .efirNav{
+        margin-top: 13%;
+    }
+
+
     .menu-headerDown-button {
         width: 202px;
         height: 40px;
@@ -134,8 +166,35 @@
 
 
 @media (max-width: 800px) and (min-width: 250px){
-    .menu-header-wrap,.menu-header-contentRight,.menu-headerDown-left,.arrowTop,.arrowBottom,.soundColumnCenter,.company-info-menu,.company-info-descDown,.aboutNav,.menu-headerDownEfir{
+    .menu-header-wrap,.menu-header-contentRight,.menu-headerDown-left,.arrowTop,.arrowBottom,.soundColumnCenter,.company-info-menu,.company-info-descDown,.aboutNav,.menu-headerDownEfir,.advantBox{
         display: none!important;
+    }
+    .intTittle {
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(img/intTittleMobile.png)no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 360px;
+        margin-top: 70px;
+}
+    #msMobile{
+        display: block;
+        height: 100%;
+    }
+    #intQuest{
+        display: none;
+    }
+    .intFiveContentGridLeft{
+        width: 100%;
+        margin-top: 0px;
+    }
+    #aboutPlusContentGridRightTittleMobile{
+        margin-top: 30px;
+    }
+    .serverLegal{
+        margin-top: 56%;
+    }
+    .in3Img{
+        width: 87px;
     }
     .mobileButton,#headerMobile{
         display: block!important;
@@ -143,9 +202,65 @@
     .adversContentLeftEfir{
         background-position-x: 20% ;
     }
+    #mebelText{
+        text-align-last: center;
+    }
+    #mebelTittle{
+        margin-top: 70px;
+    }
+    .intFiveContent,.intFiveContentGrid{
+        display: flex;
+    }
+    #mebelLeft{
+        width: 100%;
+    }
+    #marketTittle{
+        margin-top: 70px;
+    }
+    #marketLeft{
+        width: 100%;
+    }
+    .fonFormTextDesc{
+        width: 125%;
+    }
+    #jewerelyLeft{
+        width: 100%;
+    }
+    #kidsLeft{
+        width: 100%;
+    }
+    #kidsTittle{
+        margin-top: 70px;
+    }
+    #jewerelyTittle{
+        margin-top: 70px;
+    }
+    #serverTittleTextMobile{
+        width: 77%;
+    }
+    .serverTittleDown{
+        height: 100%;
+    }
+    #freeTittle{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(img/freeTittleMobile.png)no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 377px;
+        margin-top: 70px;
+
+    }
+    .serverTittleContent,.serverTittleDownContent{
+        display: flex;
+    }
+    .serverTittleDown{
+        padding-bottom: 30px;
+    }
     #brendLeft{
         width: 100%;
     }
+#serverTittleTextMobile,.serverTittleDown {
+    padding: 0 30px 0 30px;
+}
     .intFiveContentGridRightTittle{
         font-size: 22px;
     }
@@ -329,13 +444,17 @@ margin-left: 0px;
         display: flex;
         flex-direction: column;
     }
-    #intFiveContentGridRightTittleDesk,.questionContentTittleDesc,.questionContentTittle,#freeMusGridCenter,#serverServiceContentTittleDesk{
+    #intFiveContentGridRightTittleDesk,.questionContentTittleDesc,.questionContentTittle,#serverServiceContentTittleDesk{
         display: none;
     }
     #serverServiceContentTittleMobile{
         display: block;
     }
     #freeMusGridRight,#freeMusGridLeft{
+        align-self: center;
+    }
+    #freeMusGridCenter{
+        display: flex;
         align-self: center;
     }
     .serverControlContentFormTittle{
@@ -389,7 +508,7 @@ margin-left: 0px;
     .adversContentLeftEfir{
         margin-top: 0px;
     }
-    .aboutPlus,.map,.questionStudio,.intFive,.serverControlContentFormTittle,.serverControlContentFormGrid,.fonPrimerContentGrid,.questionServerContentGrid,.efirCreateContentGrid{
+    .aboutPlus,.map,.questionStudio,.intFive,.serverControlContentFormTittle,.serverControlContentFormGrid,.fonPrimerContentGrid,.questionServerContentGrid,.efirCreateContentGrid,.serverTittleContentGrid{
         padding: 0 30px 0 30px;
     }
     .aboutInfoContentGridLeftText,.aboutInfoContentGridLeftTextDown,.mapCenterTittle,.mapContactsNumberTittle,.mapContactsMailTittle,.intFiveContentGridRightDesc,.fonFormTextTittle{
@@ -397,6 +516,9 @@ font-size: 16px;
     }
     #fonControlContentForm,.serverControlContentFormLine,#cafeLeft{
         width: 100%;
+    }
+    #jewerelyText{
+        margin-top: 50%;
     }
     .serverControlContent,.efirCreateContent ,.adversContent {
         display: flex;
@@ -446,7 +568,8 @@ font-size: 16px;
     .intTittleDownText {
          text-align: left;
         font: 16px Circe;
-        width: 100%;
+        width: 98%;
+        padding-bottom: 30px;
     }
     .serverTittleDownContentGrid{
         margin-top: 10%;
@@ -463,9 +586,52 @@ font-size: 16px;
         height: 188px;
         width: 100%;
     }
+    #freeAdvant{
+        margin-top: 30%;
+    }
+    #freeLeft{
+        background: url(img/freeLeftMobile.png) no-repeat;
+        width: 100%;
+        background-size: cover;
+        height: 150px;
+        grid-area: 1 / 1 / 2 / 2;
+        position: relative;
+        margin-top: 20%;
+    }
+    .advantBoxContent{
+        height: 100%;
+        display: flex;
+    }
+.advantBoxContentGrid{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+#intDownTittleMobile{
+    display: block;
+    font-size: 22px;
+    font-family:Effra;
+    font-weight: bold;
+}
 
     .aboutInfoContentGridRightText{
         font-size: 14px;
+    }
+    #freeMenuContent{
+        display: flex!important;
+    }
+    #freeAdvant{
+        display: none;
+    }
+    .serverLegalContentGridRightTittle{
+        font-size: 22px;
+    }
+    .serverLegalContentGridRightDesc{
+        font-size: 14px;
+    }
+    .serverLegalContentGridRight{
+        margin-top: 180px;
+        margin-left: 0px;
     }
     .aboutPlusContentGridLeft{
        background: url("img/aboutPlusContentGridLeftMobile.png");
@@ -476,7 +642,12 @@ font-size: 16px;
         display: block;
         margin-bottom: 10%;
     }
-    #aboutPlusContentGridRightTittleDekst{
+    #aboutPlusContentGridRightTittleMobiles{
+        display: block;
+        margin-bottom: -6%;
+        margin-top: 10%;
+    }
+    #aboutPlusContentGridRightTittleDekst,.serverLegalContentGridLeft{
         display: none;
     }
     .aboutPlusContentGridRightText{
@@ -485,15 +656,24 @@ font-size: 16px;
     .aboutPlusContentGridRightText,.aboutGeogrContentDesc{
         font-size: 16px;
     }
+    .intFiveContentGridRight{
+        margin-top: 7%;
+    }
     #aboutPlusContentGridRightTittleMobile,.aboutWorkContentGridTittle,.aboutGeogrContentTittle{
         font-size: 22px;
     }
-    .aboutWorkContentGridBox{
+    .aboutWorkContentGridBox,.serverLegalContentGrid{
         display: flex;
         flex-direction: column;
     }
-    .questionServerContent{
+    .questionServerContent,.serverLegalContent {
         display: flex;
+    }
+    .in1,.in2,.in3{
+        font-size: 14px;
+    }
+    .free2Img{
+        width: 56px;
     }
     .aboutWorkContentGridBoxContent1,.aboutWorkContentGridBoxContent2,.aboutWorkContentGridBoxContent3,.aboutWorkContentGridBoxContent4,.aboutWorkContentGridBoxContent5,.aboutWorkContentGridBoxContent6{
         display: flex;
@@ -628,12 +808,103 @@ margin-left: 25%;
 .aboutContentLeftTittle,.myCabinetContentRightFormTittle,.questionContentTittle{
 font-size: 22px;
 }
-.aboutContentLeftDesc{
+.aboutContentLeftDesc,.serverLegalContentGridRight{
 font-size: 14px;
 padding: 0 30px 0 30px;
 }
+    .serverQuestContentDown{
+        padding: 0 30px 0 30px;
+
+    }
+    #intDownTittleMobile{
+        text-align: left;
+    }
 .myCabinetContentRightFormDesc{
     font-size: 14px;
+}
+.serverQuestContentDownDescMobile{
+    display: flex;
+    font-family: Circe;
+    flex-direction: row;
+    font-size: 14px;
+}
+    .serverQuestContentDownDescRow2{
+        margin-top: 0px;
+    }
+.serverQuestContentDownDesc{
+    display: none;
+}
+    .serverQuestContentDownButtonContainerMobile {
+        text-align: -webkit-center;
+        margin-top: 30px;
+        display: block;
+    }
+    .serverQuestContentDownButtonContainer{
+        display: none;
+    }
+
+    .serverQuestContentDownDescRow1{
+        margin-right: 10px;
+    }
+    .serverQuestContentDownDescRow1ColumnIcon{
+        width: 87px;
+        margin-bottom: 10px;
+    }
+    .serverQuestContentDownDescRow1Column1Icon{
+        width: 62px;
+        margin-bottom: 10px;
+    }
+    .serverQuestContentDownDescRow1Column3Icon{
+        width: 36px;
+        margin-bottom: 10px;
+    }
+    .serverQuestContentDownDescRow2Column3Icon{
+        width: 61px;
+
+    }
+    .serverQuestContentDownDescRow3Column2Icon{
+        width: 38px;
+        margin-bottom: 10px;
+    }
+    .serverQuestContentDownDescRow2ColumnIcon{
+        width: 30px;
+        margin-bottom: 10px;
+    }
+    .freeMusListenTittle{
+        font-size: 22px;
+    }
+    .freeMusListenButton{
+        font-size: 16px;
+    }
+    .freeMusListenDesc{
+        font-size: 14px;
+    }
+    .serverQuestContentDownDescRow1Column2Icon{
+        width: 33px;
+        margin-bottom: 10px;
+    }
+    .serverQuestContentDownDescRow2Column2Icon{
+        width: 34px;
+        margin-bottom: 10px;
+    }
+    .serverQuestContentDownDescRow3Column1Icon{
+        width: 36px;
+        margin-bottom: 10px;
+    }
+    .serverQuestContentDownDescRow3Column3Icon{
+        width: 76px;
+        margin-bottom: 10px;
+
+    }
+    .serverQuestContentDownDescRow1Column4Icon,.serverQuestContentDownDescRow2Column1Icon{
+        margin-bottom: 10px;
+    }
+.serverFlexRow{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: normal;
+    height: 80px;
 }
 .aboutContentRightUl{
     font-size: 16px;
@@ -641,25 +912,51 @@ padding: 0 30px 0 30px;
 .aboutContentLeft{
 margin-bottom: 60px;
 }
+.freeMusListen{
+    margin-top: 67%;
+}
 .questionContentGrid,.questionContentForms{
    width: 100%   ;
 }
 .adversContentRightTittle{
     margin-top: 40px;
 }
-.questionContentForm{
+    .freeMusListen{
+        height: 100%;
+        background-position-x: 50%;
+    }
+    .freeMusListenContent{
+        display: flex;
+        padding-bottom: 50px;
+    }
+    .questionContentForm{
     text-align: -webkit-center;
     flex-direction: column;
 }
-.questionContentGrid,.aboutContent ,.myCabinetContent ,.playerMsboxContent,.questionContent,.footerContent,.footerDownContent  {
+.questionContentGrid,.aboutContent ,.myCabinetContent ,.playerMsboxContent,.questionContent,.footerContent,.footerDownContent,.serverQuestContent   {
     display: flex;
 }
+    .freeMusListenDesc{
+        width: 52%;
+    }
+    #intMyCabinet{
+        margin-top: 0px;
+    }
 .questionContentForm,.aboutContentRightContainer{
     width: 100%;
 }
+    .contentServ p{
+        font-size: 14px;
+    }
+    .serverCabinet{
+        height: 100%;
+    }
 .aboutContentLeftTittle,.playerMsboxContentRight,.aboutButtonContainer,.footerContent,.footerDownContent ,.aboutInfoContent {
     padding: 0 30px 0 30px;
 }
+    .freeMusListenContentGrid{
+        margin-top: 65px;
+    }
 .questionLogin,.questionMessage{
     width: 85%;
 }

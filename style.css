@@ -104,7 +104,7 @@ button{
 }
 
 .menu-headerDown-text li {
-    margin-right: 40px;
+    margin-right: 25px;
     white-space: nowrap;
     margin-top: 8px;
 }
@@ -2329,7 +2329,7 @@ border-right: 1px solid black;
     grid-area: 1 / 2 / 2 / 3;
     align-items: center;
     margin-left: 40px;
-    margin-top: 1%;
+    margin-top: 3%;
 }
 #aboutPlusContentGridRightTittleMobiles{
     display: none;
@@ -3406,7 +3406,9 @@ border-right: 1px solid black;
 
 }
 
-
+.serverServiceContent{
+    padding-bottom: 30px;
+}
 .serverServiceContentGridLeftContentTittle,.serverServiceContentGridRightContentTittle{
     font-family: Effra;
     font-weight: bold;
@@ -3555,8 +3557,9 @@ border-right: 1px solid black;
     margin-bottom: 20px;
 }
 .intFive{
-    height: 720px;
+    height: 100%;
 }
+
 
 #intAdvant{
     background: #ECEDEF;
@@ -6163,6 +6166,9 @@ display: none;
 }
 
 #footerContentFlexMobile{
+    display: none;
+}
+.serverTittleMobile{
     display: none;
 }
 

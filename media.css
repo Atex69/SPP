@@ -1,27 +1,95 @@
-@media (min-width: 1326px) and (max-width: 1550px) {
+@media (min-width: 1320px) and (max-width: 1550px) {
     #faqId,#contactId{
         display: block!important;
     }
     #aboutPlusContentGridRightTittleDekst,.intFiveContentGridRightDesc{
-        width: 168%;
+        width: 149%;
+    }
+    .freeMusContentGridLeftContent{
+        width: 320px;
+    }
+    .footerContentGrid{
+        margin-top: 135px!important;
     }
     .free2Img{
         width: 78px;
     }
+    .serverLegalContentGridRight{
+        margin-left: 30px;
+    }
     #fonGridLeft{
         width: 97%;
+    }
+    #poLeft{
+        width: 460px;
+    }
+    .advantBoxMenuContentLeft {
+        grid-area: 1 / 1 / 2 / 2;
+        background: url(img/advantBoxMenuContentLeft.png) no-repeat;
+        width: 100%;
+        background-size: contain;
+        height: 411px;
+        margin-top: 35px;
+    }
+    .po1Img {
+        background: url(img/po1.png) no-repeat;
+        width: 109px;
+        height: 43px;
+        margin-right: 10px;
+        background-position: 40%;
+    }
+    .po2Img {
+        background: url(img/po2.png) no-repeat;
+        width: 133px;
+        height: 43px;
+        margin-right: 11px;
+        background-position: 40%;
+    }
+    .po3Img {
+        background: url(img/po3img.png) no-repeat;
+        width: 96px;
+        height: 43px;
+        margin-right: 12px;
+        background-position: 70%;
     }
     .aboutNav{
         position: absolute;
         left: -4%;
     }
-    .serverTittleText{
-        width: 104%;
+    .in1Img {
+        background: url(img/in1.png) no-repeat;
+        width: 81px;
+        height: 28px;
+        margin-right: 10px;
+    }
+    .in2Img {
+        background: url(img/in2.png) no-repeat;
+        width: 76px;
+        height: 32px;
+        margin-right: 11px;
+    }
+    .in3Img {
+        background: url(img/in3.png) no-repeat;
+        width: 163px;
+        height: 40px;
+        margin-right: 14px;
+    }
+    .advantBoxMenuContentLeft{
+        width: 100%;
+        background-size: contain;
+    }
+    #intAdvant{
+        padding-bottom: 75px;
     }
     .free3Img{
         width: 43px;
     }
-
+    .serverRealContentGridRightDesc{
+        width: 100%;
+    }
+#poContentGrid{
+    grid-column-gap: 30px;
+}
 
 }
 
@@ -97,8 +165,7 @@
         margin-top: 13%;
     }
 
-
-    .menu-headerDown-button {
+ .menu-headerDown-button {
         width: 202px;
         height: 40px;
         background: transparent;
@@ -129,6 +196,7 @@
     .soundColumnRightRow1Content,.soundColumnRightRow2Content,.soundColumnLeftRow2Content,.soundColumnLeftRow1Content{
         width: 365px;
     }
+
     .soundColumnCenter {
         background: url(img/soundTech.png) no-repeat;
         width: 335px;
@@ -176,6 +244,100 @@
         height: 360px;
         margin-top: 70px;
 }
+.serverService{
+    margin-top: 70px;
+}
+    .intTittle,#parfumTittle{
+        margin-top: 70px!important;
+    }
+#parfumLeft,#poLeft{
+    width: 100%;
+    margin-top: 0;
+}
+#poLegal{
+    margin-top: 0!important;
+    padding-top: 45px;
+}
+    .serverQuestContentDownTittle{
+        font-size: 22px;
+    }
+
+
+    #poContentGrid{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(img/poContentGrid.png)no-repeat;
+        width: 100%;
+        height: 346px;
+    }
+
+#mobilesServ{
+    margin-top: 25px;
+
+}
+.serverServiceContentGridLeftContentDesc,.serverServiceContentGridRightContentDesc{
+    width: 100%;
+    margin-left: 0;
+}
+.serverQuestContentDownTittle{
+    text-align: -webkit-left;
+}
+#gridPo{
+    margin-bottom: 0;
+}
+#gridRight{
+    margin-top: 0;
+}
+    .po1Img {
+        background: url(img/po1.png) no-repeat;
+        width: 44px;
+    }
+    .po2Img {
+        background: url(img/po2.png) no-repeat;
+        width: 57px;
+    }
+    .po3Img {
+        background: url(img/po3img.png) no-repeat;
+        width: 41px;
+    }
+    #intServ,.serverRealContentGridRightTittle{
+        display: none;
+    }
+    .serverQuestContentDownButton{
+        margin-bottom: 60px ;
+    }
+    .serverRealContent,.serverRealContentGrid,.serverServiceContent {
+        display: flex;
+    }
+
+    .serverServiceContentGrid{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .serverServiceContentGridLeftContent,.serverServiceContentGriRightContent{
+        width: 100%;
+    }
+    .serverRealContentGridRightTittle{
+        font-size: 22px;
+        color: white;
+    }
+    .serverRealContentGridRightDesc{
+        color: white;
+        font-size: 14px;
+    }
+    .serverTittleMobile{
+        display: block;
+    }
+    .serverRealContentGridRightDesc a{
+        color: white;
+    }
+    .serverRealContentGridRight{
+        text-align: -webkit-center;
+    }
+    .serverRealContentGrid{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(img/serverRealContentGridLeft.png)no-repeat;
+        width: 100%;
+        height: 509px;
+    }
     #msMobile{
         display: block;
         height: 100%;
@@ -258,12 +420,36 @@
     #brendLeft{
         width: 100%;
     }
-#serverTittleTextMobile,.serverTittleDown {
+#serverTittleTextMobile,.serverTittleDown,.serverServiceContentGrid {
     padding: 0 30px 0 30px;
 }
     .intFiveContentGridRightTittle{
         font-size: 22px;
     }
+  #visionQuestDown{
+        padding: 0 30px 0 30px;
+        display: block;
+        text-align: -webkit-center;
+    }
+    #visionQuest{
+        padding: 0 30px 0 30px;
+        display: block;
+        text-align: -webkit-center;
+        margin-top: 60px;
+    }
+    .serverServiceContentGridLeft{
+        margin-bottom: 30px;
+    }
+    .questionContentGrid{
+        background: #e1e2e4;
+    }
+    .serverService{
+        padding-bottom: 20px;
+    }
+    .questionContentGrid{
+        margin-top: 0px;
+    }
+    .question
     .aboutInfoContent{
         display: flex;
     }
@@ -346,6 +532,7 @@ margin-left: 0px;
     }
     .serverTittleDownContentGrid{
         margin-left: 0px;
+        margin-top: 1%;
     }
     .soundColumnRight{
         margin-left: 0px;
@@ -402,15 +589,23 @@ margin-left: 0px;
         margin-left: 0px;
     }
     .wrap-logo{
-        margin-left: 55px;
-        margin-right: 55px;
+        margin-left: 43px;
+        margin-right: 25px;
         margin-top: 20px;
         zoom: 87%;
     }
     .menu-headerDown-button{
         min-width: 263px;
     }
-
+#productTittle{
+    margin-top: 70px;
+}
+.intFiveContentGridLeft{
+    width: 100% !important;
+}
+    .fonPrimerContentGridBoxCardText{
+        font-size: 14px;
+    }
     .soundTechContentWrapper{
         display: flex;
         flex-direction: column;
@@ -574,6 +769,9 @@ font-size: 16px;
     .serverTittleDownContentGrid{
         margin-top: 10%;
     }
+    .serverServiceContent{
+        padding-bottom: 0px;
+    }
     .intFiveContent{
         display: flex;
     }
@@ -630,7 +828,7 @@ font-size: 16px;
         font-size: 14px;
     }
     .serverLegalContentGridRight{
-        margin-top: 180px;
+        margin-top: 0px;
         margin-left: 0px;
     }
     .aboutPlusContentGridLeft{
@@ -824,7 +1022,6 @@ padding: 0 30px 0 30px;
 }
 .serverQuestContentDownDescMobile{
     display: flex;
-    font-family: Circe;
     flex-direction: row;
     font-size: 14px;
 }
@@ -904,11 +1101,19 @@ padding: 0 30px 0 30px;
     flex-direction: column;
     width: 100%;
     align-items: normal;
-    height: 80px;
+    height: 110px;
+    font-family: Circe;
 }
 .aboutContentRightUl{
     font-size: 16px;
 }
+    #poTittle {
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(img/poTittleMobile.png)no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 359px;
+        margin-top: 70px;
+    }
 .aboutContentLeft{
 margin-bottom: 60px;
 }

@@ -3,9 +3,30 @@
   <component name="ChangeListManager">
     <list default="true" id="78caece4-cfe6-4a16-bb77-e04fa48c6df1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media.css" beforeDir="false" afterPath="$PROJECT_DIR$/media.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/indexAbout.html" beforeDir="false" afterPath="$PROJECT_DIR$/indexAbout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/indexBrend.html" beforeDir="false" afterPath="$PROJECT_DIR$/indexBrend.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/indexCabinet.html" beforeDir="false" afterPath="$PROJECT_DIR$/indexCabinet.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/indexCafe.html" beforeDir="false" afterPath="$PROJECT_DIR$/indexCafe.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/indexContact.html" beforeDir="false" afterPath="$PROJECT_DIR$/indexContact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/indexEfir.html" beforeDir="false" afterPath="$PROJECT_DIR$/indexEfir.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/indexFaq.html" beforeDir="false" afterPath="$PROJECT_DIR$/indexFaq.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/indexFon.html" beforeDir="false" afterPath="$PROJECT_DIR$/indexFon.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/indexFreeMus.html" beforeDir="false" afterPath="$PROJECT_DIR$/indexFreeMus.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/indexJewerely.html" beforeDir="false" afterPath="$PROJECT_DIR$/indexJewerely.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/indexKids.html" beforeDir="false" afterPath="$PROJECT_DIR$/indexKids.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/indexMarket.html" beforeDir="false" afterPath="$PROJECT_DIR$/indexMarket.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/indexMebel.html" beforeDir="false" afterPath="$PROJECT_DIR$/indexMebel.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/indexMsInternet.html" beforeDir="false" afterPath="$PROJECT_DIR$/indexMsInternet.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/indexParfum.html" beforeDir="false" afterPath="$PROJECT_DIR$/indexParfum.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/indexPoMS.html" beforeDir="false" afterPath="$PROJECT_DIR$/indexPoMS.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/indexProduct.html" beforeDir="false" afterPath="$PROJECT_DIR$/indexProduct.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/indexRights.html" beforeDir="false" afterPath="$PROJECT_DIR$/indexRights.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/indexSell.html" beforeDir="false" afterPath="$PROJECT_DIR$/indexSell.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/indexServer.html" beforeDir="false" afterPath="$PROJECT_DIR$/indexServer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/indexSport.html" beforeDir="false" afterPath="$PROJECT_DIR$/indexSport.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/indexStation.html" beforeDir="false" afterPath="$PROJECT_DIR$/indexStation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/indexStudio.html" beforeDir="false" afterPath="$PROJECT_DIR$/indexStudio.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/indexTema.html" beforeDir="false" afterPath="$PROJECT_DIR$/indexTema.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +137,7 @@
       <workItem from="1586388454683" duration="101000" />
       <workItem from="1586391343302" duration="6331000" />
       <workItem from="1586527046721" duration="3557000" />
-      <workItem from="1586803273624" duration="405000" />
+      <workItem from="1586803273624" duration="546000" />
     </task>
     <task id="LOCAL-00001" summary="11.03">
       <created>1583934484327</created>
@@ -174,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586528442303</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="10 04">
+      <created>1586803705211</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1586803705211</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -205,10 +233,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="10 04" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="585" y="114" key="CommitChangelistDialog2" timestamp="1586528439909">
+    <state x="585" y="114" key="CommitChangelistDialog2" timestamp="1586803703054">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="585" y="114" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1586528439909" />
+    <state x="585" y="114" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1586803703054" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1586528448344">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -217,10 +245,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1585004225225" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1586528451539">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1586803713078">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1586528451539" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1586803713078" />
     <state x="591" y="217" width="737" height="606" key="find.popup" timestamp="1586306947899">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

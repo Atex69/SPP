@@ -183,7 +183,7 @@
 }
 
 
-@media (min-width: 801px) and (max-width: 1200px) {
+@media (min-width: 901px) and (max-width: 1200px) {
 .menu-header-wrap{
     display: none;
 }
@@ -192,7 +192,7 @@
     }
 }
 
-@media (min-width: 801px) and (max-width: 1550px) {
+@media (min-width: 901px) and (max-width: 1550px) {
     .soundColumnRightRow1Content,.soundColumnRightRow2Content,.soundColumnLeftRow2Content,.soundColumnLeftRow1Content{
         width: 365px;
     }
@@ -233,7 +233,7 @@
 
 
 
-@media (max-width: 800px) and (min-width: 250px){
+@media (max-width: 900px) and (min-width: 250px){
     .menu-header-wrap,.menu-header-contentRight,.menu-headerDown-left,.arrowTop,.arrowBottom,.soundColumnCenter,.company-info-menu,.company-info-descDown,.aboutNav,.menu-headerDownEfir,.advantBox{
         display: none!important;
     }
@@ -589,8 +589,8 @@ margin-left: 0px;
         margin-left: 0px;
     }
     .wrap-logo{
-        margin-left: 50px;
-        margin-right: 50px;
+        margin-left: 21px;
+        margin-right: 21px;
         margin-top: 20px;
         zoom: 87%;
     }
@@ -979,7 +979,7 @@ margin-left: 25%;
 }
 
 .adversContentRight{
-    width: 120%;
+    width: 100%;
     height: 564px;
     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("img/adversContentRight.png") no-repeat;
 }

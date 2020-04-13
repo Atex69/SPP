@@ -5958,10 +5958,10 @@ display: none;
     background: black;
     position: absolute;
     top: 143%;
-    left: 129.7%;
-    margin-left: -62px;
+    left: 106.7%;
+    margin-left: -52px;
     margin-top: -4px;
-    transition: all 0.4s;
+    transition: all 0.4s
 }
 .mobile-menu.menu-active {
     position: fixed;

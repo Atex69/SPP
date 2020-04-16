@@ -183,7 +183,7 @@
 }
 
 
-@media (min-width: 901px) and (max-width: 1200px) {
+@media (min-width: 801px) and (max-width: 1200px) {
 .menu-header-wrap{
     display: none;
 }
@@ -192,7 +192,7 @@
     }
 }
 
-@media (min-width: 901px) and (max-width: 1550px) {
+@media (min-width: 801px) and (max-width: 1550px) {
     .soundColumnRightRow1Content,.soundColumnRightRow2Content,.soundColumnLeftRow2Content,.soundColumnLeftRow1Content{
         width: 365px;
     }
@@ -233,7 +233,7 @@
 
 
 
-@media (max-width: 900px) and (min-width: 250px){
+@media (max-width: 800px) and (min-width: 250px){
     .menu-header-wrap,.menu-header-contentRight,.menu-headerDown-left,.arrowTop,.arrowBottom,.soundColumnCenter,.company-info-menu,.company-info-descDown,.aboutNav,.menu-headerDownEfir,.advantBox{
         display: none!important;
     }
@@ -352,9 +352,7 @@
     #aboutPlusContentGridRightTittleMobile{
         margin-top: 30px;
     }
-    .serverLegal{
-        margin-top: 56%;
-    }
+
     .in3Img{
         width: 87px;
     }
@@ -362,7 +360,11 @@
         display: block!important;
     }
     .adversContentLeftEfir{
-        background-position-x: 20% ;
+        background-position-x: 32% ;
+        zoom: 56%;
+    }
+    #efirContentDesc{
+        color: black;
     }
     #mebelText{
         text-align-last: center;
@@ -420,7 +422,7 @@
     #brendLeft{
         width: 100%;
     }
-#serverTittleTextMobile,.serverTittleDown,.serverServiceContentGrid {
+#serverTittleTextMobile,.serverTittleDown,.serverServiceContentGrid,.studioStepContent  {
     padding: 0 30px 0 30px;
 }
     .intFiveContentGridRightTittle{
@@ -436,6 +438,17 @@
         display: block;
         text-align: -webkit-center;
         margin-top: 60px;
+    }
+    .studioStepTittle{
+        font-size: 22px;
+        width: 92%;
+        text-align: -webkit-center;
+    }
+    .descTitte{
+        font-size: 16px;
+    }
+    .descMain{
+        font-size: 14px;
     }
     .serverServiceContentGridLeft{
         margin-bottom: 30px;
@@ -481,11 +494,15 @@
         grid-area: 1 / 2 / 2 / 3;
 margin-left: 0px;
         align-items: normal;
-        margin-top: 146px;
+        margin-top: 110px;
 
     }
+    .fonPrimerContentGridBoxCard{
+        place-self: center;
+    }
     .playerMsboxContentRightMoment1Img{
-        width: 50px;
+        width: 66px;
+        margin-right: 0;
     }
     .myCabinetLogin,.myCabinetPassword{
         width: 314px;
@@ -495,19 +512,39 @@ margin-left: 0px;
         text-align: center;
     }
     .playerMsboxContentRightMoment2Img{
-        width: 42px;
+        width: 48px;
+        margin-right: 0;
     }
     .adversContentRightTittleEfir{
         font-size: 22px;
     }
 
     .playerMsboxContentRightMoment3Img{
-        width: 79px;
+        width: 96px;
+        margin-right: 0;
+    }
+    .internet1img{
+        width: 37px;
+    }
+    .internet2img{
+        width: 39px;
+    }
+    .internet3img{
+        width: 84px;
     }
     .playerMsboxContentRightButton{
         min-width: 161px;
         height: 49px;
         font-size: 16px;
+    }
+    .po1img{
+        width: 59px;
+    }
+    .po2img{
+        width: 77px;
+    }
+    .po3img{
+        width: 56px;
     }
     #playerMsboxContentRightTittleDeks{
         display: none;
@@ -621,10 +658,14 @@ margin-left: 0px;
         height: 100%;
     }
     .fonPrimer{
-        margin-top: 114%;
+        margin-top: 230%;
+    }
+    #questGridson{
+        margin-top: 0px;
     }
     .fonFormTextDesc{
         font-size: 16px;
+        padding-bottom: 15px;
     }
     .fonPrimerContent,.fonPrimerContentGrid,#freeMusGrid{
         width: 100%;
@@ -682,14 +723,22 @@ margin-left: 0px;
     }
     .efirCreateDesc {
         color: white;
-        font-size: 22px;
+        font-size: 16px;
         font-family: Circe;
         width: 100%;
      text-align: left;
         margin-bottom: 30px;
     }
 .fonPrimerContentGridBoxCard{
-    padding: 0 0 0 0;
+    padding: 0 10px 0 5px;
+}
+    .freeMusContentGridLeftContent,.freeMusContentGridRightContent,.freeMusContentGridCenterContent{
+        width: 100%;
+    }
+
+
+body{
+    background: #ECEDEF;
 }
 
 .adversContentLeftEfir,.adversContentLeftPo,.adversContentLeftInternet{
@@ -703,12 +752,38 @@ margin-left: 0px;
     }
     .serverControlContentFormGridLeft{
         margin-left: 0;
+        width: 100%;
+    }
+    #legalMobile{
+        margin-top: 88%;
     }
     .adversContentLeftEfir{
         margin-top: 0px;
     }
-    .aboutPlus,.map,.questionStudio,.intFive,.serverControlContentFormTittle,.serverControlContentFormGrid,.fonPrimerContentGrid,.questionServerContentGrid,.efirCreateContentGrid,.serverTittleContentGrid{
+    .aboutPlus,.map,.intFive,.serverControlContentFormTittle,.serverControlContentFormGrid,.fonPrimerContentGrid,.questionServerContentGrid,.efirCreateContentGrid,.serverTittleContentGrid{
         padding: 0 30px 0 30px;
+    }
+    .serverQuestContentGrid{
+        width: 100% ;
+    }
+    .serverQuestContentVideo iframe{
+        width: 100%;
+        height: 177px;
+    }
+    #serverLegalRightMobile{
+        background: #ffff;
+        padding-top: 43px;
+        padding-bottom: 60px;
+    }
+    .serverQuestContentTittle{
+        margin-top: 30px;
+        font-size: 22px;
+    }
+    #questContent{
+        padding-top: 40px;
+    }
+    .questionContentFormTittle{
+        margin-bottom: 25px;
     }
     .aboutInfoContentGridLeftText,.aboutInfoContentGridLeftTextDown,.mapCenterTittle,.mapContactsNumberTittle,.mapContactsMailTittle,.intFiveContentGridRightDesc,.fonFormTextTittle{
 font-size: 16px;
@@ -718,6 +793,9 @@ font-size: 16px;
     }
     #jewerelyText{
         margin-top: 50%;
+    }
+    .questionServerContentTittle{
+        font-size: 22px;
     }
     .serverControlContent,.efirCreateContent ,.adversContent {
         display: flex;
@@ -738,12 +816,29 @@ font-size: 16px;
         font-size: 16px;
     }
     .questionServerContent{
-        padding-top: 0px;
+        padding-top: 60px;
     }
     .questionServerContentGrid{
         margin-bottom: 40px;
     }
     .setServ{
+        width: 100%;
+    }
+    .questionServerContentTittleDesc{
+        font-size: 14px;
+    }
+    .studioVideoContentGrid{
+        margin-top: 0;
+    }
+    .contentServVoices{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .voiceFlex{
+        margin-bottom: 10px;
+    }
+    .contentServ{
         width: 100%;
     }
     .studioServText{
@@ -879,7 +974,7 @@ font-size: 16px;
         font-size: 14px;
     }
     .free2Img{
-        width: 56px;
+        width: 75px;
     }
     .aboutWorkContentGridBoxContent1,.aboutWorkContentGridBoxContent2,.aboutWorkContentGridBoxContent3,.aboutWorkContentGridBoxContent4,.aboutWorkContentGridBoxContent5,.aboutWorkContentGridBoxContent6{
         display: flex;
@@ -928,15 +1023,19 @@ font-size: 16px;
         flex-direction: column;
     }
     #mainCabinet {
-        height: 1051px;
+        height: 1153px;
     }
     .mainCabinetTittle{
-        align-self: center;
+        width: 100%;
+        text-align: -webkit-center;
+        font-size: 45px;
     }
     #mainCabinetGrid{
         margin-top: 0;
     }
-
+.myCabinetInp{
+    margin-left: 29px!important;
+}
     #contactTittle {
         background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(img/contactTittleMobile.png)no-repeat;
         width: 100%;
@@ -944,11 +1043,7 @@ font-size: 16px;
         margin-top: 70px;
         background-position-x: 50%;
     }
-#tittleRights{
-    margin-top: 175px;
-    margin-bottom: 0px;
- margin-left: 0px;
-}
+
 .menu-headerDown-demo{
     margin-left: 0px;
     margin-top: 20px;
@@ -998,8 +1093,17 @@ margin-left: 25%;
 }
 .adversContentRightDesc{
     font-size: 16px;
-    color: black;
+    color: white;
     width: 87%;
+}
+.aboutFor,.aboutTeam{
+    display: none;
+}
+.aboutInfoContent{
+    display: flex;
+}
+.aboutInfoContentGridRight{
+    text-align: -webkit-center;
 }
 .advMom{
     font-size: 14px;
@@ -1011,6 +1115,9 @@ margin-left: 25%;
 .advers{
     height: 982px;
 }
+.aboutWorkContentGridBoxContentText{
+    margin-left: 15px;
+}
 .aboutContentLeftTittle,.myCabinetContentRightFormTittle,.questionContentTittle{
 font-size: 22px;
 }
@@ -1020,11 +1127,11 @@ padding: 0 30px 0 30px;
 }
     .serverQuestContentDown{
         padding-left:30px;
+        padding-right:0px;
 
     }
-    #intDownTittleMobile{
-        text-align: left;
-    }
+
+
 .myCabinetContentRightFormDesc{
     font-size: 14px;
 }
@@ -1047,9 +1154,219 @@ padding: 0 30px 0 30px;
     .serverQuestContentDownButtonContainer{
         display: none;
     }
+    .serverQuestContentDownButtonContainerMobile{
+        margin-right: 55px;
+    }
+    #po1Mob{
+        width: 61px;
+    }
+    #po2Mob{
+        width: 75px;
+    }
+    .rightsAboutContentGridTittle{
+        font-size: 22px;
+        margin-top: 40px;
+        text-align: start;
+        width: 90%;
+    }
+    .intTittle{
+        height: 359px!important;
+        background-size: cover!important;
+    }
+    .rightsActContentGridBoxElementIcon{
+        width: 51px;
+    }
+    .serverTittle{
+        margin-top: 70px;
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(img/serverTittleMobile.png)no-repeat;
+        width: 100%;
+        height: 359px;
+        background-size: cover;
+        background-position-x: 93%;
+    }
+    .serverTittleDownText{
+        font-size: 16px!important;
+       text-align: start;
+        width: 98%;
+padding-bottom: 28px;
+    }
+    #serverComplexWrapperMobile{
+        display: block!important;
+    }
+    #serverComplexWrapperDekst{
+        display: none;
+    }
+    .serverColumnLeftRow1Icon,.serverColumnLeftRow2Icon,.serverColumnCenterRowIcon,.serverColumnLeftRow3Icon{
+        width: 60px;
+    }
+    .serverColumnLeftRow1Icon{
+        background: url(img/playlistMobile.png)no-repeat;
+        width: 51px;
+        height: 35px;
+    }
+    .serverColumnCenterImage {
+        background: url(img/msboxMobile.png);
+        width: 268px;
+        height: 187px;
+        z-index: 3;
+        position: relative;
+    }
+    .serverColumnLeftRow2Icon{
+        background: url(img/otchet.png)no-repeat;
+        width: 51px;
+        height: 36px;
+    }
+    .serverColumnLeftRow3Icon{
+        background: url(img/work/Layer2.png)no-repeat;
+        width: 51px;
+        height: 36px;
+    }
+    .serverComplexContent{
+        display: flex;
+    }
+    .serverColumnLeftRow1,.serverColumnLeftRow2,.serverColumnLeftRow3,.serverColumnRightRow1,.serverColumnRightRow2,.serverColumnRightRow3 {
+        display: flex;
+    }
+    .serverColumnRightRow1Icon{
+        background: url(img/work/noneCloud.png)no-repeat;
+        width: 51px;
+        height: 36px;
+    }
+    .serverColumnRightRow2Icon{
+        background: url(img/work/dbltj.png)no-repeat;
+        width: 51px;
+        height: 36px;
+    }
+    .serverColumnRightRow3Icon{
+        background: url(img/work/speaker.png)no-repeat;
+        width: 51px;
+        height: 36px;
+    }
+    .serverColumnCenterRowIcon{
+        background: url(img/work/Group553.png)no-repeat;
+        width: 51px;
+        height: 36px;
+    }
+    #serverLine{
+        display: none;
+    }
+    .serverControlContentFormGridRight {
+        margin-top: 20px;
+        background: url(img/work/cable_snd_cntr.png) no-repeat;
+        width: 100%;
+        height: 233px;
+
+    }
+    .serverControlContentForm{
+        width: 100%;
+        height: 100%;
+        background: #ECEDEF;
+    }
+    .serverControlContentFormGridLeftTittle{
+        font-size: 14px;
+    }
+    .serverControlContentFormGridLeftDesc p{
+        width: 100%;
+        font-size: 14px!important;
+    }
+    .serverControlContentFormGridLeftDesc ul{
+        padding-left: 15px;
+    }
+    .serverControlContentFormGridLeftDesc{
+        padding-bottom: 30px;
+    }
+    .serverControlContentFormGrid{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .serverComplexContentTittle{
+        font-size: 22px;
+    }
+    .serverComplexContentTittleDesc{
+        font-size: 16px;
+        text-align: start;
+        width: 100%;
+    }
+    .serverColumnLeft{
+        align-items: center;
+    }
+
+
+    .serverColumnCenterRow{
+        flex-direction: row;
+    }
+    #questSell{
+        margin-top: 130%;
+    }
+    #studioDesc{
+        width: 100%;
+        margin-left: 0;
+    }
+    .sell2Img{
+        width: 127px;
+    }
+    .sell1Img{
+        width: 49px;
+    }
+    .sell3Img{
+        width: 74px;
+    }
+    .rightsActContentTittle{
+        font-size: 22px;
+        margin-top: 40px;
+    }
+    #mobileRights{
+        height: 1112px;
+    }
+    .rightsActContentGridBoxElement{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .rightsActContentGridBoxElementText{
+        margin-left: 14px;
+    }
+    .rightsActContent{
+        display: flex;
+    }
+    .rightsActContentGrid,.rightsActContentGridBox{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .rightsAboutContentGridTittleDown{
+        font-size: 16px;
+        text-align: start;
+    }
+    .aspect{
+        margin-left: 0;
+        padding-right:0;
+    }
+    .aspectText{
+        font-size: 14px;
+    }
+    #po3Mob{
+        width: 52px;
+    }
+    #rightContent{
+        margin-top: 60px;
+    }
+    .rightsAbout{
+        background: #FFFFFF;
+    }
+    .rightsAboutContent{
+        display: flex;
+    }
+    .rightsAboutContentGrid{
+        display: flex;
+        flex-direction: column;
+    }
+    .rightsAboutContentGridContainer{
+        flex-direction: column;
+    }
 
     .serverQuestContentDownDescRow1{
-        margin-right: 10px;
+        margin-right: 0px;
+        padding-left: 20px;
     }
     .serverQuestContentDownDescRow1ColumnIcon{
         width: 87px;
@@ -1057,7 +1374,7 @@ padding: 0 30px 0 30px;
     }
     .serverQuestContentDownDescRow1Column1Icon{
         width: 62px;
-        margin-bottom: 10px;
+        margin-bottom: 2px;
     }
     .serverQuestContentDownDescRow1Column3Icon{
         width: 36px;
@@ -1125,9 +1442,21 @@ padding: 0 30px 0 30px;
 .aboutContentLeft{
 margin-bottom: 60px;
 }
-.freeMusListen{
-    margin-top: 67%;
-}
+    .in1Img{
+        width: 70px;
+        margin-right: 0;
+    }
+    .in2Img{
+        width: 64px;
+        margin-right: 0;
+    }
+    .in3Img{
+        width: 150px!important;
+        margin-right: 0;
+    }
+    #footerIntMobile{
+        margin-top: 260px;
+    }
 .questionContentGrid,.questionContentForms{
    width: 100%   ;
 }
@@ -1158,30 +1487,109 @@ margin-bottom: 60px;
 .questionContentForm,.aboutContentRightContainer{
     width: 100%;
 }
-    .contentServ p{
+    .contentServ p,.rightsActContentGridBoxElementText{
         font-size: 14px;
     }
     .serverCabinet{
         height: 100%;
     }
-.aboutContentLeftTittle,.playerMsboxContentRight,.aboutButtonContainer,.footerContent,.footerDownContent ,.aboutInfoContent {
+.aboutContentLeftTittle,.playerMsboxContentRight,.aboutButtonContainer,.footerContent,.footerDownContent ,.aboutInfoContent,.rightsAboutContentGrid,.rightsAct,.serverQuestContentTittle, .serverComplexContentGrid {
     padding: 0 30px 0 30px;
 }
+
     .freeMusListenContentGrid{
         margin-top: 65px;
     }
 .questionLogin,.questionMessage{
     width: 85%;
 }
+.studioStepContent{
+    display: flex;
+}
+.studioStepContentGrid,.studioStepDescLeft,.studioStepDescCenter,.studioStepDescRight{
+    width: 100%;
+}
+#mobileServer{
+    margin-top: 220%;
+}
+    .studioStepDesc{
+        flex-direction: column;
+    }
+
+    .studioArrow {
+        background: url(img/work/studioArrowMobile.png) no-repeat;
+        width: 18px;
+        height: 30px;
+        margin-top: 25px;
+        align-self: center;
+    }
+
+    #studioTittle {
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/work/studioMobile.png) no-repeat;
+        width: 100%;
+        height: 321px;
+        margin-top: 70px;
+    }
+    #studioLeft{
+        background: url("img/work/shut.png");
+        height: 222px;
+        background-size: cover;
+    }
+    .studioStep{
+        margin-top: 50%;
+    }
+.optionBoxTittle{
+    font-size: 16px;
+}
+.studioVideoContent{
+    display: flex;
+}
+.serverQuest{
+        height: 100%;
+    }
+.studioVideoContentGrid {
+    width: 100%;
+}
+.studioVideoTittle,#questStudio{
+    font-size: 22px;
+    font-weight: bold;
+}
+.studioVideoTittleContent iframe{
+    width: 100%;
+    height: 178px;
+}
+.studioVideos{
+    display: none;
+}
+
 .questionAnswer{
     width: 90%;
 }
+    .serverRealContentGridLeft{
+        display: none;
+    }
+    .serverOptionContentGrid,.serverOptionContentDesc{
+        width: 100%;
+    }
+    .optionBoxImg{
+        width: 100%;
+    }
+    .optionBoxFlex{
+        align-self: center;
+        width: 100%;
+    }
 .questFormInputs, .questPhoneText, .questPhoneMail,.questAnswerText,.questMessageText{
-    margin-left: 53px;
+    margin-left: 30px;
 }
 .questionContentDownDesc{
     width: 100%;
     text-align: center;
+}
+    .serverOptionContentDesc{
+        flex-direction: column;
+    }
+.serverOptionContent{
+    display: flex;
 }
 .redStarText{
     justify-content: center;
@@ -1193,6 +1601,21 @@ margin-bottom: 60px;
 .footerContentFlexMain{
     flex-direction: column;
 }
+    .serverColumnLeftRow1Text,.serverColumnLeftRow2Text ,.serverColumnLeftRow3Text,.serverColumnRightRow1Text ,.serverText{
+        width: 100%;
+    }
+    .serverText{
+        text-align: start;
+    }
+    .serverColumnLeftRow3Text{
+        margin-left: 0;
+    }
+    .serverColumnRightRow2,.serverColumnLeftRow2,.serverColumnLeftRow1,.serverColumnRightRow1{
+        margin-bottom: 0;
+    }
+    .serverText{
+        margin-bottom: 28px;
+    }
 .flex4Politic,.footerWhiteRabbit{
     margin-left: 0px;
 }

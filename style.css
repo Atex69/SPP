@@ -5946,7 +5946,9 @@ display: none;
 .menu-btn span:before {
     transform: translateY(-8px);
 }
-
+#serverComplexWrapperMobile{
+    display: none;
+}
 .menu-btn span:after {
     transform: translateY(8px);
 }

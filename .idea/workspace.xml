@@ -2,7 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="78caece4-cfe6-4a16-bb77-e04fa48c6df1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/img/msboxMobile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/otchet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/playlistMobile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/serverTittleMobile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/work/Group553.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/work/Layer2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/work/cable_snd_cntr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/work/dbltj.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/work/noneCloud.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/work/shut.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/work/speaker.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/work/studioArrowMobile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/work/studioMobile.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/indexCabinet.html" beforeDir="false" afterPath="$PROJECT_DIR$/indexCabinet.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/indexEfir.html" beforeDir="false" afterPath="$PROJECT_DIR$/indexEfir.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/indexFreeMus.html" beforeDir="false" afterPath="$PROJECT_DIR$/indexFreeMus.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/indexMsInternet.html" beforeDir="false" afterPath="$PROJECT_DIR$/indexMsInternet.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/indexPoMS.html" beforeDir="false" afterPath="$PROJECT_DIR$/indexPoMS.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/indexRights.html" beforeDir="false" afterPath="$PROJECT_DIR$/indexRights.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/indexSell.html" beforeDir="false" afterPath="$PROJECT_DIR$/indexSell.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/indexServer.html" beforeDir="false" afterPath="$PROJECT_DIR$/indexServer.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/media.css" beforeDir="false" afterPath="$PROJECT_DIR$/media.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
@@ -38,7 +59,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ClickPatent" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -115,7 +136,9 @@
       <workItem from="1586388454683" duration="101000" />
       <workItem from="1586391343302" duration="6331000" />
       <workItem from="1586527046721" duration="3557000" />
-      <workItem from="1586803273624" duration="1492000" />
+      <workItem from="1586803273624" duration="2755000" />
+      <workItem from="1586879055065" duration="27000" />
+      <workItem from="1586996260625" duration="10671000" />
     </task>
     <task id="LOCAL-00001" summary="11.03">
       <created>1583934484327</created>
@@ -187,7 +210,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586803876277</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="13 04">
+      <created>1586804809406</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1586804809406</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -219,22 +249,22 @@
     <option name="LAST_COMMIT_MESSAGE" value="13 04" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="585" y="114" key="CommitChangelistDialog2" timestamp="1586803874851">
+    <state x="585" y="114" key="CommitChangelistDialog2" timestamp="1586804808167">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="585" y="114" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1586803874851" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1586528448344">
+    <state x="585" y="114" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1586804808167" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1586879080013">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1586528448344" />
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1586879080013" />
     <state x="461" y="162" key="SettingsEditor" timestamp="1585004225225">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1585004225225" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1586803879368">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1586804811874">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1586803879368" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1586804811874" />
     <state x="591" y="217" width="737" height="606" key="find.popup" timestamp="1586306947899">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

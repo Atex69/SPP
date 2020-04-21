@@ -187,9 +187,12 @@
     <div class="modalCall" id="modalOne">
         <div class="modal-content">
 
-            <div class="modalContentLeft" style="       height: 850px;">
+            <div class="modalContentLeft" id="modalContentCall" style="       height: 850px;">
                 <div class="myCabinetContentRightForm"  style="margin-top: 30%;margin-left: 23%;">
-
+                    <div class="modalCloseButton" id="modalCallMobile">
+                        <div class="sharp">
+                        </div>
+                    </div>
                     <div class="myCabinetContentRightFormTittle" style="text-align: left;     line-height: 30px;" >Возникли вопросы?<br>
                         Просто напишите нам.<br>
                         Мы будем рады вам помочь! </div>
@@ -202,21 +205,14 @@
             </div>
             <div class="modalContentRight">
                 <div class="myCabinetContentLeftForm">
-                    <div class="modalCloseButton">
+                    <div class="modalCloseButton"  id="modalCallNone">
                         <div class="sharp">
                         </div>
                     </div>
 
                     <div class="myCabinetContentLeftFormTittle" id="demoInputs"> Заказать звонок</div>
                     <div class="myCabinetContentLeftFormInputs">
-                        <div style="
-     display: flex;
-    margin-left: 125px;
-    margin-bottom: -8px;
-    font-family: Circe;
-    font-size: 14px;
-    color: #22262A;
-">
+                        <div class="modalCallInput" >
                             Имя
                         </div>
                         <div style="
@@ -225,15 +221,8 @@
                             <input type="text" class="myCabinetLogin" name="name" placeholder="Ваше имя" value="" size="40">
                         </div>
 
-                        <div style="
-      display: flex;
-    margin-left: 125px;
-    margin-bottom: -8px;
-    font-family: Circe;
-    font-size: 14px;
-    color: #22262A;;
-">
-                            Телефон<div class="redStar">*</div>
+                        <div class="modalCallInput">
+                            Телефон<div class="redStar" id="modalCallNone">*</div>
                         </div>
                         <div style="
     margin-top: 10px;
@@ -242,18 +231,13 @@
                         </div>
 
 
-                        <div style="
-      display: flex;
-    margin-left: 125px;
-    margin-bottom: -8px;
-    font-family: Circe;
-    font-size: 14px;
-    color: #22262A;
+                        <div class="modalCallInput" id="modalCallNone" style="
+
     width: 44%;
     margin-top: 15px;
     text-align: -webkit-left;
 ">
-                            E-Mail:<div class="redStar" style="
+                            E-Mail:<div class="redStar" id="modalCallNone"  style="
    margin-top: 20px;
     margin-right: -5px;
     position: absolute;
@@ -264,20 +248,12 @@
                         <div style="
     margin-top: 10px;
 ">
-                            <input type="text" class="myCabinetPassword" name="email" placeholder="Ваш e-mail" value="" size="40">
+                            <input type="text" class="myCabinetPassword" id="modalCallNone"  name="email" placeholder="Ваш e-mail" value="" size="40">
                         </div>
-                        <div style="
-    display: flex;
-       margin-left: 125px;
-       margin-top: 20px;
-        margin-bottom: -8px;
-         font-family: Circe;
-        font-size: 14px;
-        color:#22262A;
-">
+                        <div class="modalCallInput" id="modalCallNone" >
                             Как вам ответить
                         </div>
-                        <div style="margin-top: 10px;">
+                        <div style="margin-top: 10px;" id="modalCallNone" >
                             <select class="questionAnswer" style="    width: 446px;">
                                 <option value="mail">На электронную почту</option>
                                 <option value="phone">Мобильный телефон</option>
@@ -285,25 +261,18 @@
                             </select>
                         </div>
 
-                        <div style="
-    display: flex;
-    margin-left: 120px;
-        margin-bottom: -8px;
-         font-family: Circe;
-        font-size: 14px;
-        color:#22262A;
-">
+                        <div class="modalCallInput"  id="modalCallNone" >
 
                             Сообщение
                         </div>
-                        <div style="margin-top: 10px;">
+                        <div style="margin-top: 10px;" id="modalCallNone" >
                             <textarea type="text" class="questionMessage" name="password" placeholder="Ваше сообщение" value="" size="40" style="width: 411px;"></textarea>
                         </div>
                     </div>
-                    <a href="#">
+                    <a href="#"  >
                         <button class="myCabinetContentLeftFormButton" id="demoFormButton">Отправить</button>
                     </a>
-                    <div class="politic">Нажимая кнопку «Отправить», Вы подтверждаете, что даете свое согласие<br> на обработку персональных данных.<br>
+                    <div class="politic" id="modalCallNone" >Нажимая кнопку «Отправить», Вы подтверждаете, что даете свое согласие<br> на обработку персональных данных.<br>
                         <div class="politicStar"> <div class="redStar">*</div>Звездочкой отмечены поля обязательные для заполнения.</div></div>
                 </div>
             </div>
@@ -330,10 +299,13 @@
         <div class="modal-content">
 
             <div class="modalContentLeft" style="    height: 564px;">
-                <div class="myCabinetContentRightForm"  style="margin-top: 30%;margin-left: 23%;">
-
+                <div class="myCabinetContentRightForm" id="modalTwoForm"  style="margin-top: 30%;margin-left: 23%;">
+                    <div class="modalCloseButton" id="modalCallMobile">
+                        <div class="sharp">
+                        </div>
+                    </div>
                     <div class="myCabinetContentRightFormTittle" style="text-align: left;" >Бесплатный тестовый период </div>
-                    <div class="myCabinetContentRightFormDesc" style="width: 87%;">
+                    <div class="myCabinetContentRightFormDesc" id="wrapTwo" style="width: 87%;">
                         Хотите поближе познакомиться с музыкальным контентом без отчислений в РАО и ВОИС, изучить все возможности технологии удаленного управления и контроля за аудио и видео эфиром, посмотреть как слаженно и оперативно работает наша команда? Это реально! Отправьте нам заявку на бесплатный пробный период.
                     </div>
 
@@ -342,19 +314,14 @@
             </div>
             <div class="modalContentRight">
                 <div class="myCabinetContentLeftForm">
-                    <div class="modalCloseButton">
+                    <div class="modalCloseButton" id="modalCallNone">
                         <div class="sharp">
                         </div>
                     </div>
-                    <div class="myCabinetContentLeftFormTittle" id="demoInputs">Попробовать бесплатно 30 дней</div>
+                    <div class="myCabinetContentLeftFormTittle demoCabinet" id="demoInputs">Попробовать бесплатно 30 дней</div>
                     <div class="myCabinetContentLeftFormInputs">
-                        <div style="
-     display: flex;
-    margin-left: 125px;
-    margin-bottom: -8px;
-    font-family: Circe;
-    font-size: 14px;
-    color: #22262A;
+                        <div class="modalCallInput" style="
+
 ">
                             Имя
                         </div>
@@ -364,13 +331,8 @@
                             <input type="text" class="myCabinetLogin" name="name" placeholder="Ваше имя" value="" size="40">
                         </div>
 
-                        <div style="
-      display: flex;
-    margin-left: 125px;
-    margin-bottom: -8px;
-    font-family: Circe;
-    font-size: 14px;
-    color: #22262A;;
+                        <div class="modalCallInput"  style="
+
 ">
                             Телефон<div class="redStar">*</div>
                         </div>
@@ -381,13 +343,8 @@
                         </div>
 
 
-                        <div style="
-      display: flex;
-    margin-left: 125px;
-    margin-bottom: -8px;
-    font-family: Circe;
-    font-size: 14px;
-    color: #22262A;
+                        <div class="modalCallInput"  style="
+
     width: 44%;
     margin-top: 15px;
     text-align: -webkit-left;
@@ -434,11 +391,15 @@
     <div class="modalCallThree">
         <div class="modal-content">
 
-            <div class="modalContentLeft">
-                <div class="myCabinetContentRightForm"  style="margin-top: 30%;margin-left: 23%;">
+            <div class="modalContentLeft" id="demoModalLeft">
+                <div class="myCabinetContentRightForm" id="demoModal" style="margin-top: 30%;margin-left: 23%;">
+                    <div class="modalCloseButton" id="modalCallMobile">
+                        <div class="sharp">
+                        </div>
+                    </div>
 
                     <div class="myCabinetContentRightFormTittle" style="text-align: left;" >Демо-доступ </div>
-                    <div class="myCabinetContentRightFormDesc">
+                    <div class="myCabinetContentRightFormDesc" id="descDemo">
                         Оставьте запрос и получите Демо-доступ к управлению трансляциями. Вы сами сможете убедиться как просто управлять эфиром корпоративного радио!
                     </div>
 
@@ -446,21 +407,14 @@
 
             </div>
             <div class="modalContentRight">
-                <div class="myCabinetContentLeftForm">
-                    <div class="modalCloseButton">
+                <div class="myCabinetContentLeftForm" >
+                    <div class="modalCloseButton" id="modalCallNone">
                         <div class="sharp">
                         </div>
                     </div>
                     <div class="myCabinetContentLeftFormTittle" id="demoInputs">Запрос демо-доступа</div>
                     <div class="myCabinetContentLeftFormInputs">
-                        <div style="
-     display: flex;
-    margin-left: 125px;
-    margin-bottom: -8px;
-    font-family: Circe;
-    font-size: 14px;
-    color: #22262A;
-">
+                        <div class="modalCallInput" >
                             Имя
                         </div>
                         <div style="
@@ -469,14 +423,7 @@
                             <input type="text" class="myCabinetLogin" name="name" placeholder="Ваше имя" value="" size="40">
                         </div>
 
-                        <div style="
-      display: flex;
-    margin-left: 125px;
-    margin-bottom: -8px;
-    font-family: Circe;
-    font-size: 14px;
-    color: #22262A;;
-">
+                        <div class="modalCallInput" >
                             Телефон<div class="redStar">*</div>
                         </div>
                         <div style="
@@ -486,13 +433,8 @@
                         </div>
 
 
-                        <div style="
-      display: flex;
-    margin-left: 125px;
-    margin-bottom: -8px;
-    font-family: Circe;
-    font-size: 14px;
-    color: #22262A;
+                        <div class="modalCallInput" id="demoInpDeks"  style="
+
     width: 44%;
     margin-top: 15px;
     text-align: -webkit-left;
@@ -506,6 +448,29 @@
 ">*</div>
                         </div>
 
+
+                        <div class="modalCallInput" id="demoInpMobile"  style="
+
+    width: 44%;
+    margin-top: 15px;
+    text-align: -webkit-left;
+">
+                            E-Mail
+                            <div class="redStar" style="
+   margin-top: 20px;
+    margin-right: -5px;
+    position: absolute;
+    right: -15px;
+">*</div>
+                        </div>
+
+
+
+
+
+
+
+
                         <div style="
     margin-top: 10px;
 ">
@@ -515,7 +480,7 @@
                     <a href="#">
                         <button class="myCabinetContentLeftFormButton" id="demoFormButton">Отправить</button>
                     </a>
-                    <div class="politic">Нажимая кнопку «Отправить», Вы подтверждаете, что даете свое согласие<br> на обработку персональных данных.<br>
+                    <div class="politic"  id="modalCallNone">Нажимая кнопку «Отправить», Вы подтверждаете, что даете свое согласие<br> на обработку персональных данных.<br>
                         <div class="politicStar"> <div class="redStar">*</div>Звездочкой отмечены поля обязательные для заполнения.</div></div>
                 </div>
             </div>

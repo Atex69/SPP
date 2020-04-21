@@ -5923,13 +5923,31 @@ display: none;
     display: none;
 }
 
+#modalCallMobile{
+    display: none;
+}
+
+#demoInpMobile{
+    display: none;
+}
+
+#descDemo{
+    width: 77%!important;
+}
 #intDownTittleMobile{
     display: none;
 }
 #intDownTittle{
     display: none;
 }
-
+.modalCallInput{
+    display: flex;
+    margin-left: 125px;
+    margin-bottom: -8px;
+    font-family: Circe;
+    font-size: 14px;
+    color: #22262A;
+}
 
 .mobile-menu__menu-header-wrap {
     z-index: 995;

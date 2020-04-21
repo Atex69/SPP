@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="78caece4-cfe6-4a16-bb77-e04fa48c6df1" name="Default Changelist" comment="" />
+    <list default="true" id="78caece4-cfe6-4a16-bb77-e04fa48c6df1" name="Default Changelist" comment="16 04">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media.css" beforeDir="false" afterPath="$PROJECT_DIR$/media.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,12 +30,12 @@
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -38,7 +43,7 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -114,6 +119,22 @@
       <workItem from="1586803273624" duration="2755000" />
       <workItem from="1586879055065" duration="27000" />
       <workItem from="1586996260625" duration="10943000" />
+      <workItem from="1587047402367" duration="2430000" />
+      <workItem from="1587087817779" duration="1388000" />
+      <workItem from="1587220701484" duration="831000" />
+      <workItem from="1587252772605" duration="596000" />
+      <workItem from="1587254633287" duration="1787000" />
+      <workItem from="1587256658816" duration="1788000" />
+      <workItem from="1587258490833" duration="48000" />
+      <workItem from="1587258558493" duration="38000" />
+      <workItem from="1587258660100" duration="32000" />
+      <workItem from="1587258755263" duration="44000" />
+      <workItem from="1587258817310" duration="5000" />
+      <workItem from="1587259070546" duration="185000" />
+      <workItem from="1587259274234" duration="14000" />
+      <workItem from="1587260801786" duration="40000" />
+      <workItem from="1587432376182" duration="90000" />
+      <workItem from="1587432516594" duration="776000" />
     </task>
     <task id="LOCAL-00001" summary="11.03">
       <created>1583934484327</created>
@@ -199,24 +220,30 @@
       <option name="project" value="LOCAL" />
       <updated>1587007000199</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="16 04">
+      <created>1587047432727</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1587047432727</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -232,26 +259,30 @@
     <option name="LAST_COMMIT_MESSAGE" value="16 04" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="585" y="114" key="CommitChangelistDialog2" timestamp="1587047429985">
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587258759816">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="585" y="114" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1587047429985" />
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587258759816" />
+    <state x="585" y="114" key="CommitChangelistDialog2" timestamp="1587433281675">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="585" y="114" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1587433281675" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1586879080013">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1586879080013" />
-    <state x="461" y="162" key="SettingsEditor" timestamp="1585004225225">
+    <state x="461" y="162" key="SettingsEditor" timestamp="1587256729709">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1585004225225" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1587007046327">
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1587256729709" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1587047435741">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1587007046327" />
-    <state x="591" y="217" width="737" height="606" key="find.popup" timestamp="1586306947899">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1587047435741" />
+    <state x="591" y="217" width="737" height="606" key="find.popup" timestamp="1587256843213">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="591" y="217" width="737" height="606" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1586306947899" />
+    <state x="591" y="217" width="737" height="606" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1587256843213" />
     <state x="601" y="246" width="700" height="530" key="recent.locations.popup" timestamp="1586301194133">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

@@ -8,6 +8,17 @@
     .freeMusContentGridLeftContent{
         width: 320px;
     }
+    .modalCall, .modalCallTwo, .modalCallThree{
+        margin-top: -250px;
+        top: 45%;
+        left: 23%;
+    }
+     #modalTwoWrapper{
+            height: 592px!important;
+    }
+    .myCabinetContentRightForm{
+        margin-left: 9%!important;
+    }
     .footerContentGrid{
         margin-top: 135px!important;
     }
@@ -17,8 +28,22 @@
     .serverLegalContentGridRight{
         margin-left: 30px;
     }
+    .company-info-menu-contentSellAudio,.company-info-menu-contentAudio ,.company-info-menu-contentFreeMusic ,.company-info-menu-contentStudios,.company-info-menu-contentCreateSfera{
+        left: 263px;
+    }
     #fonGridLeft{
         width: 97%;
+    }
+    #menuDown {
+        flex-direction: row;
+        display: flex;
+        align-items: center;
+        margin-left: 926px;
+        padding-top: 15px;
+        position: fixed;
+        width: 519px;
+        height: 43px;
+        z-index: 10;
     }
     #poLeft{
         width: 460px;
@@ -207,6 +232,11 @@
         position: relative;
         background-position-x: 37%;
     }
+
+    .demoCabinet{
+            width: 48%!important;
+    margin-left: 24%!important;
+    }
     .myCabinetContentRight,.myCabinetContentRightForm,.myCabinetContentRightFormLine,.myCabinetContentLeftForm,.myCabinetContentLeftFormLine,.myCabinetContentLeft{
         width: 100%;
     }
@@ -247,8 +277,87 @@
 .serverService{
     margin-top: 70px;
 }
+#modalTwoForm{
+    margin-top: 0px!important;
+}
+.myCabinetContentRightFormTittle{
+    margin-top: 20px;
+}
+#wrapTwo{
+    width: 69%!important;
+}
+.modalCallTwo{
+    margin-top: -301px!important;
+}
+#modalCallNone{
+    display: none;
+}
+.myCabinetContentRightFormTittle{
+    margin-top: -11px;
+}
+    #demoInputs {
+        margin-top: 30px;
+        width: 50%;
+        margin-left: 25%;
+    }
+    #demoModal{
+        margin-top: 0!important;
+    }
+    #demoModalLeft{
+        height: 236px!important;
+    }
+    .modalCallThree{
+        margin-top: -302px;
+    }
+#modalCallMobile{
+    display: block;
+    margin-right: 15px;
+    margin-top: 10px;
+    margin-left: 58%;
+    }
+#demoInpDeks{
+    display: none;
+}
+    #demoInpMobile{
+        display: block;
+    }
+    .myCabinetContentRightFormTittle{
+        margin-top: 0;
+    }
+    #wrapTwo{
+        margin-top: 5px;
+    }
+
+
+.modalCallInput{
+    margin-left: 178px;
+}
     .intTittle,#parfumTittle{
         margin-top: 70px!important;
+    }
+    .modalContentLeft{
+        display: flex;
+        height: 227px!important;
+        width: 100%!important;
+    }
+    #modalContentCall{
+        display: flex;
+        height: 369px!important;
+        width: 100%!important;
+        padding-top: 31px;
+    }
+    .modal-content{
+        flex-direction: column;
+    }
+    .myCabinetContentRightForm{
+        margin-top: 5%!important;
+    }
+
+    .myCabinetContentRightFormTittle{
+        text-align: center;
+    }
+    .myCabinetContentRightFormDesc{
+        width: 100%;
     }
 #parfumLeft,#poLeft{
     width: 100%;
@@ -1068,7 +1177,7 @@ font-size: 16px;
     width: 100%;
 }
 .nameTextInput,.passTextInput{
-margin-left: 25%;
+margin-left: 8%;
 }
 .myCabinetContentRightFormDesc{
     width: 85%;

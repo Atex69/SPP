@@ -323,6 +323,44 @@ $( "#electric" ).hover(function(){
     });
 
 
+    $('#pricerContentCards-1').on('click', function (e) {
+        e.preventDefault();
+        $('#pricerContentCards-1').toggleClass('circle-active');
+        $('#pricerContentCards-2').removeClass('circle-active');
+        $('#pricerContentCards-3').removeClass('circle-active');
+        $('#pricerContentCards-4').removeClass('circle-active');
+
+
+    });
+    $('#pricerContentCards-2').on('click', function (e) {
+        e.preventDefault();
+        $('#pricerContentCards-2').toggleClass('circle-active');
+        $('#pricerContentCards-1').removeClass('circle-active');
+        $('#pricerContentCards-3').removeClass('circle-active');
+        $('#pricerContentCards-4').removeClass('circle-active');
+
+
+    });
+    $('#pricerContentCards-3').on('click', function (e) {
+        e.preventDefault();
+        $('#pricerContentCards-3').toggleClass('circle-active');
+        $('#pricerContentCards-2').removeClass('circle-active');
+        $('#pricerContentCards-1').removeClass('circle-active');
+        $('#pricerContentCards-4').removeClass('circle-active');
+
+
+    });
+    $('#pricerContentCards-4').on('click', function (e) {
+        e.preventDefault();
+        $('#pricerContentCards-4').toggleClass('circle-active');
+        $('#pricerContentCards-3').removeClass('circle-active');
+        $('#pricerContentCards-1').removeClass('circle-active');
+        $('#pricerContentCards-2').removeClass('circle-active');
+
+
+
+    });
+
 
     let initCardSwitcher = function () {
         let contents = [`  <div class="advWorkContentTop1">
@@ -395,8 +433,347 @@ $( "#electric" ).hover(function(){
 
         initUP();
         renderUp(0);
-        initCardSwitcher();
+
     };
+    let initCardSwitcher1 = function () {
+        let contents1 = [`    <div class="studioVideosContentCard1 contentCard">
+                        <div class="contentCardImg1"></div>
+                        <div class="contentCardTittle">Информационные ролики</div>
+                        <div class="contentCardDesc">Задача информационного ролика – дать информацию. Рассказать о товаре, услугах или продукте ясно, четко и понятно. Сообщение сводится к передаче характеристик или функций предмета рекламы и создания посыла ими воспользоваться.</div>
+                        <div class="contentCardExam">
+                            <div class="cardExamTittle">Примеры:</div>
+                            <div class="cardExamIcons">
+                                <div class="cardExamIcon"></div>
+                                <div class="cardExamIcon"></div>
+                                <div class="cardExamIcon"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="studioVideosContentCard2 contentCard">
+                       <div class="contentCardImg2"></div>
+                        <div class="contentCardTittle">Сложно-информационные ролики</div>
+                        <div class="contentCardDesc">Когда выразительности средств информационного ролика становится недостаточно, использование музыкальной подложки и звуковых эффектов дает гораздо больше возможностей донести настроение.</div>
+                        <div class="contentCardExam">
+                            <div class="cardExamTittle">Примеры:</div>
+                            <div class="cardExamIcons">
+                                <div class="cardExamIcon"></div>
+                                <div class="cardExamIcon"></div>
+                                <div class="cardExamIcon"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="studioVideosContentCard3 contentCard">
+                       <div class="contentCardImg3"></div>
+                        <div class="contentCardTittle">Игровые ролики</div>
+                        <div class="contentCardDesc">Игровой рекламный ролик – наиболее востребованный, популярный и работающий маркетинговый инструмент рекламной кампании. Он может вызвать интерес и, одновременно, раскрыть суть рекламируемого продукта или услуги.</div>
+                        <div class="contentCardExam">
+                            <div class="cardExamTittle">Примеры:</div>
+                            <div class="cardExamIcons">
+                                <div class="cardExamIcon"></div>
+                                <div class="cardExamIcon"></div>
+                                <div class="cardExamIcon"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="studioVideosContentCard4 contentCard">
+                        <div class="contentCardImg4"></div>
+                        <div class="contentCardTittle">Песенные ролики</div>
+                        <div class="contentCardDesc">В условиях перенасыщенности рекламой эфира использование песенных роликов иногда оправдано. В случае удачной реализации запоминается не только информация из ролика, но и мелодия.</div>
+                        <div class="contentCardExam">
+                            <div class="cardExamTittle">Примеры:</div>
+                            <div class="cardExamIcons">
+                                <div class="cardExamIcon"></div>
+                                <div class="cardExamIcon"></div>
+                                <div class="cardExamIcon"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="studioVideosContentCard5 contentCard">
+                        <div class="contentCardImg5"></div>
+                        <div class="contentCardTittle">Навигационные ролики</div>
+                        <div class="contentCardDesc">Задача ролика навигации – направить посетителя в нужном направлении. Чаще всего - это обязательные или сервисные сообщения торгового предприятия. Но ведь можно рекламировать и собственные маркетинговые акции.</div>
+                        <div class="contentCardExam">
+                            <div class="cardExamTittle">Примеры:</div>
+                            <div class="cardExamIcons">
+                                <div class="cardExamIcon"></div>
+                                <div class="cardExamIcon"></div>
+                                <div class="cardExamIcon"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="studioVideosContentCard6 contentCard">
+                        <div class="contentCardImg6"></div>
+                        <div class="contentCardTittle">Ролики для АТС</div>
+                        <div class="contentCardDesc">Большинство торговых предприятий обладают современными телефонными станциями. Используйте их как инструмент маркетинга. Реклама, акции, объявления и помощь в поиске нужного абонента.</div>
+                        <div class="contentCardExam">
+                            <div class="cardExamTittle">Примеры:</div>
+                            <div class="cardExamIcons">
+                                <div class="cardExamIcon"></div>
+                                <div class="cardExamIcon"></div>
+                                <div class="cardExamIcon"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="studioVideosContentCard7 contentCard">
+                        <div class="contentCardImg7"></div>
+                        <div class="contentCardTittle">Одежда эфира</div>
+                        <div class="contentCardDesc">Это звуковое лицо предприятия. Комплект аудиороликов, который встраивается в эфир и каждый день работает как средство PR-маркетинга. Очень просто и очень эффективно.</div>
+                        <div class="contentCardExam">
+                            <div class="cardExamTittle">Примеры:</div>
+                            <div class="cardExamIcons">
+                                <div class="cardExamIcon"></div>
+                                <div class="cardExamIcon"></div>
+                                <div class="cardExamIcon"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="studioVideosContentCard8 contentCard">
+                        <div class="contentCardImg8"></div>
+                        <div class="contentCardTittle">Джингл</div>
+                        <div class="contentCardDesc">Короткий музыкальный отрезок, содержащий запоминающуюся мелодию и, чаще всего, пропевку. Может использоваться самостоятельно и как элемент, объединяющий рекламу в единую кампанию.</div>
+                        <div class="contentCardExam">
+                            <div class="cardExamTittle">Примеры:</div>
+                            <div class="cardExamIcons">
+                                <div class="cardExamIcon"></div>
+                                <div class="cardExamIcon"></div>
+                                <div class="cardExamIcon"></div>
+                            </div>
+                        </div>
+                    </div>`];
+        let containers1 = $('.studioVideosCards');
+
+        let renderUp1 = (index)=> {
+            let contentCopys1 = contents1.slice();//копия исходного массива
+
+            for (let i = 0; i < index; i++) {
+                contentCopys1.push(contentCopys1.shift());
+            }
+
+            renders1(contentCopys1);
+        };
+
+        let renders1 = (contentCopys1) => {
+            containers1.empty();
+            for (let i = 0; i < contentCopys1.length; i++) {
+                containers1.append(contentCopys1[i]);
+            }
+        };
+
+        let initUP1 = () => {
+            for (let i = 0; i < 4; i++) {
+                $('#pricerContentCards-'+(i+1)).click(() => {
+                    renderUp(i);
+                })
+            }
+        };
+
+        initUP1();
+        renderUp1(0);
+
+    };let initCardSwitcher2 = function () {
+        let contents2 = [`    <div class="aboutForContentGridBoxContent1">
+                        <div class="aboutForContentGridBoxContent1Img"></div>
+                        <div class="aboutForContentGridBoxContentDesc">Мульти- и моно- брендовые торговые предприятия сетевые и одиночные (магазины, супермаркеты, дискаунтеры, дроггери).</div>
+
+                    </div>
+                    <div class="aboutForContentGridBoxContent2">
+                        <div class="aboutForContentGridBoxContent2Img"></div>
+                        <div class="aboutForContentGridBoxContentDesc">Торговые предприятия сетевые и одиночные, сдающие площади в аренду (торговые центры, комплексы, развлекательные центры,
+                            гипермаркеты).</div>
+
+                    </div>
+                    <div class="aboutForContentGridBoxContent3">
+                        <div class="aboutForContentGridBoxContent3Img"></div>
+                        <div class="aboutForContentGridBoxContentDesc">Спортзалы, фитнес-центры, горно-лыжные курорты.</div>
+
+                    </div>
+                    <div class="aboutForContentGridBoxContent4">
+                        <div class="aboutForContentGridBoxContent4Img"></div>
+                        <div class="aboutForContentGridBoxContentDesc">Выставочные залы, выставочные комплексы, экспоцентры, галереи.</div>
+
+                    </div>
+                    <div class="aboutForContentGridBoxContent5">
+                        <div class="aboutForContentGridBoxContent5Img"></div>
+                        <div class="aboutForContentGridBoxContentDesc">Мульти- и моно- брендовые автосалоны.</div>
+
+                    </div>
+                    <div class="aboutForContentGridBoxContent6">
+                        <div class="aboutForContentGridBoxContent6Img"></div>
+                        <div class="aboutForContentGridBoxContentDesc">Сети заправочных станций для создания эфира в мини-маркетах и продвижения маркетинговых программ.</div>
+
+                    </div>
+                    <div class="aboutForContentGridBoxContent7">
+                        <div class="aboutForContentGridBoxContent7Img"></div>
+                        <div class="aboutForContentGridBoxContentDesc">Организации, производящие монтаж систем трансляции и пожарного оповещения (в качестве источника звука в проектах).</div>
+
+                    </div>
+                    <div class="aboutForContentGridBoxContent8">
+                        <div class="aboutForContentGridBoxContent8Img"></div>
+                        <div class="aboutForContentGridBoxContentDesc">  Рекламные агентства, использующие технологии размещения рекламы в местах продаж и оказывающие услуги создания музыкальноинформационного эфира для заказчиков.</div>
+                    </div>`];
+        let containers2 = $('.aboutForContentGridBox');
+
+        let renderUp2 = (index)=> {
+            let contentCopys2 = contents2.slice();//копия исходного массива
+
+            for (let i = 0; i < index; i++) {
+                contentCopys2.push(contentCopys2.shift());
+            }
+
+            renders2(contentCopys2);
+        };
+
+        let renders2 = (contentCopys2) => {
+            containers2.empty();
+            for (let i = 0; i < contentCopys2.length; i++) {
+                containers2.append(contentCopys2[i]);
+            }
+        };
+
+        let initUP2 = () => {
+            for (let i = 0; i < 4; i++) {
+                $('#pricerContentCards-'+(i+1)).click(() => {
+                    renderUp(i);
+                })
+            }
+        };
+
+        initUP2();
+        renderUp2(0);
+
+    };
+    let initCardSwitcher3 = function () {
+        let contents3 = [`  <div class="aboutTeamContentGridBoxContent1">
+                        <div class="aboutTeamContentGridBoxContent1Img"></div>
+                        <div class="aboutTeamContentGridBoxContentName">Новиков<br>
+                            Георгий Сергеевич</div>
+                        <div class="aboutTeamContentGridBoxContentDesc">Генеральный директор, идейный вдохновитель</div>
+                        <div class="aboutTeamContentGridBoxContentContainerButton">
+                            <div class="aboutTeamContentGridBoxContentContainerButtonIcon"></div>
+                            <a href="#">
+                                Написать письмо
+                            </a>
+                        </div>
+                    </div>
+                    <div class="aboutTeamContentGridBoxContent2">
+                        <div class="aboutTeamContentGridBoxContent2Img"></div>
+                        <div class="aboutTeamContentGridBoxContentName">Скрипкина<br>
+                            Анастасия Петровна</div>
+                        <div class="aboutTeamContentGridBoxContentDesc">Менеджер по работе с привилегированными клиентами</div>
+                        <div class="aboutTeamContentGridBoxContentContainerButton">
+                            <div class="aboutTeamContentGridBoxContentContainerButtonIcon"></div>
+                            <a href="#">
+                                Написать письмо
+                            </a>
+                        </div>
+                    </div>
+                    <div class="aboutTeamContentGridBoxContent3">
+                        <div class="aboutTeamContentGridBoxContent3Img"></div>
+                        <div class="aboutTeamContentGridBoxContentName">Стародубцев<br>
+                            Михаил Иванович</div>
+                        <div class="aboutTeamContentGridBoxContentDesc">Менеджер по размещению рекламных роликов в торговых предприятиях</div>
+                        <div class="aboutTeamContentGridBoxContentContainerButton">
+                            <div class="aboutTeamContentGridBoxContentContainerButtonIcon"></div>
+                            <a href="#">
+                                Написать письмо
+                            </a>
+                        </div>
+                    </div>
+                    <div class="aboutTeamContentGridBoxContent4">
+                        <div class="aboutTeamContentGridBoxContent4Img"></div>
+                        <div class="aboutTeamContentGridBoxContentName">Удальцов<br>
+                            Константин Константинович</div>
+                        <div class="aboutTeamContentGridBoxContentDesc">Специалист по подбору музыкальных композиций для разных целевых аудиторий</div>
+                        <div class="aboutTeamContentGridBoxContentContainerButton">
+                            <div class="aboutTeamContentGridBoxContentContainerButtonIcon"></div>
+                            <a href="#">
+                                Написать письмо
+                            </a>
+                        </div>
+                    </div>
+                    <div class="aboutTeamContentGridBoxContent5">
+                        <div class="aboutTeamContentGridBoxContent5Img"></div>
+                        <div class="aboutTeamContentGridBoxContentName">Новиков<br>
+                            Георгий Сергеевич</div>
+                        <div class="aboutTeamContentGridBoxContentDesc">Генеральный директор, идейный вдохновитель</div>
+                        <div class="aboutTeamContentGridBoxContentContainerButton">
+                            <div class="aboutTeamContentGridBoxContentContainerButtonIcon"></div>
+                            <a href="#">
+                                Написать письмо
+                            </a>
+                        </div>
+                    </div>
+                    <div class="aboutTeamContentGridBoxContent6">
+                        <div class="aboutTeamContentGridBoxContent6Img"></div>
+                        <div class="aboutTeamContentGridBoxContentName">Скрипкина<br>
+                            Анастасия Петровна</div>
+                        <div class="aboutTeamContentGridBoxContentDesc">Менеджер по работе с привилегированными клиентами</div>
+                        <div class="aboutTeamContentGridBoxContentContainerButton">
+                            <div class="aboutTeamContentGridBoxContentContainerButtonIcon"></div>
+                            <a href="#">
+                                Написать письмо
+                            </a>
+                        </div>
+                    </div>
+                    <div class="aboutTeamContentGridBoxContent7">
+                        <div class="aboutTeamContentGridBoxContent7Img"></div>
+                        <div class="aboutTeamContentGridBoxContentName">Стародубцев<br>
+                            Михаил Иванович</div>
+                        <div class="aboutTeamContentGridBoxContentDesc">Менеджер по размещению рекламных роликов в торговых предприятиях</div>
+                        <div class="aboutTeamContentGridBoxContentContainerButton">
+                            <div class="aboutTeamContentGridBoxContentContainerButtonIcon"></div>
+                            <a href="#">
+                                Написать письмо
+                            </a>
+                        </div>
+                    </div>
+                    <div class="aboutTeamContentGridBoxContent8">
+                        <div class="aboutTeamContentGridBoxContent8Img"></div>
+                        <div class="aboutTeamContentGridBoxContentName">Удальцов<br>
+                            Константин Константинович</div>
+                        <div class="aboutTeamContentGridBoxContentDesc">Специалист по подбору музыкальных композиций для разных целевых аудиторий</div>
+                        <div class="aboutTeamContentGridBoxContentContainerButton">
+                            <div class="aboutTeamContentGridBoxContentContainerButtonIcon"></div>
+                            <a href="#">
+                                Написать письмо
+                            </a>
+                        </div>
+                    </div>`];
+        let containers3 = $('.aboutTeamContentGridBox');
+
+        let renderUp3 = (index)=> {
+            let contentCopys3 = contents3.slice();//копия исходного массива
+
+            for (let i = 0; i < index; i++) {
+                contentCopys3.push(contentCopys3.shift());
+            }
+
+            renders3(contentCopys3);
+        };
+
+        let renders3 = (contentCopys3) => {
+            containers3.empty();
+            for (let i = 0; i < contentCopys3.length; i++) {
+                containers3.append(contentCopys3[i]);
+            }
+        };
+
+        let initUP3 = () => {
+            for (let i = 0; i < 4; i++) {
+                $('#pricerContentCards-'+(i+1)).click(() => {
+                    renderUp(i);
+                })
+            }
+        };
+
+        initUP3();
+        renderUp3(0);
+
+    };
+    initCardSwitcher();
+    initCardSwitcher1();
+    initCardSwitcher2();
+    initCardSwitcher3();
 });
 
 

@@ -5,6 +5,34 @@
     #aboutPlusContentGridRightTittleDekst,.intFiveContentGridRightDesc{
         width: 149%;
     }
+    .menu-headerDown-demo {
+        display: flex;
+        font-family: Effra;
+        text-decoration: underline;
+        color: #E34850;
+        font-weight: 600;
+        letter-spacing: 1.2px;
+        margin-right: -56px;
+        margin-bottom: 10px;
+        margin-left: 72px;
+        cursor: pointer;
+    }
+    .menu-headerDown-button {
+        margin-right: auto;
+        height: 40px;
+        min-width: 153px;
+        background: transparent;
+        border: solid 2px #E34850;
+        font-size: 16px;
+        font-family: Effra;
+        font-weight: 400;
+        color: #E34850;
+        border-radius: 4px;
+        background: #FFFFFF;
+        font-family: 'circe';
+        margin-bottom: 10px;
+        margin-right: 6px;
+    }
     .freeMusContentGridLeftContent{
         width: 320px;
     }
@@ -222,6 +250,7 @@
         width: 365px;
     }
 
+
     .soundColumnCenter {
         background: url(img/soundTech.png) no-repeat;
         width: 335px;
@@ -264,7 +293,7 @@
 
 
 @media (max-width: 800px) and (min-width: 250px){
-    .menu-header-wrap,.menu-header-contentRight,.menu-headerDown-left,.arrowTop,.arrowBottom,.soundColumnCenter,.company-info-menu,.company-info-descDown,.aboutNav,.menu-headerDownEfir,.advantBox{
+    .menu-header-wrap,.menu-header-contentRight,.menu-headerDown-left,.arrowTop,.arrowBottom,.soundColumnCenter,.company-info-menu,.company-info-descDown,.aboutNav,.menu-headerDownEfir{
         display: none!important;
     }
     .intTittle {
@@ -274,7 +303,47 @@
         height: 360px;
         margin-top: 70px;
 }
-.serverService{
+    .circleUp {
+        display: block;
+    }
+    #freeMenuContent{
+        flex-direction: column;
+    }
+    .advantBoxMenuContentRightTittle,.freeAdvantText{
+        font-size: 16px;
+    }
+    #studioBoxMenuContentRight{
+        margin-top: 0;
+    }
+    .advTittle{
+        font-size: 16px;
+    }
+    .advDesc{
+        font-size: 14px;
+    }
+    .advWorkContentGridTittle{
+        font-size: 22px;
+        text-align: -webkit-center;
+    }
+    .advWorkContentGridTittleDesc{
+        width: 100%;
+        margin-top: 15px;
+    }
+    .advWorkContent{
+        display: flex;
+        width: 100%;
+    }
+    .advWorkContentGrid{
+        width: 100%;
+    }
+    .advWorkContentMain{
+        display: flex;
+        flex-direction: row;
+    }
+    .myCabinetContentRightFormTittle{
+        padding-top: 30px;
+    }
+    .serverService{
     margin-top: 70px;
 }
 #modalTwoForm{
@@ -771,10 +840,44 @@ margin-left: 0px;
     }
     #questGridson{
         margin-top: 0px;
+
+    }
+
+    .questionServerContent{
+        padding-top: 0;
+    }
+    #studioServiceTittle{
+        padding-top: 0;
     }
     .fonFormTextDesc{
         font-size: 16px;
         padding-bottom: 15px;
+    }
+    .studioVideos{
+        margin-top: 35%;
+    }
+    .contentCardTittle{
+        font-size: 16px;
+    }
+    .contentCardDesc{
+        font-size: 14px;
+    }
+    .studioVideosCards{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+    .studioVideosTittle{
+        font-size: 22px;
+        margin-top: 156px
+    }
+    .studioVideosContent{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+    .studioVideosContentGrid{
+        width: 100%;
     }
     .fonPrimerContent,.fonPrimerContentGrid,#freeMusGrid{
         width: 100%;
@@ -1026,9 +1129,7 @@ font-size: 16px;
     #freeMenuContent{
         display: flex!important;
     }
-    #freeAdvant{
-        display: none;
-    }
+
     .serverLegalContentGridRightTittle{
         font-size: 22px;
     }
@@ -1205,14 +1306,34 @@ margin-left: 8%;
     color: white;
     width: 87%;
 }
-.aboutFor,.aboutTeam{
-    display: none;
-}
+
 .aboutInfoContent{
     display: flex;
 }
 .aboutInfoContentGridRight{
     text-align: -webkit-center;
+}
+    .aboutForContentGridTittle,.aboutTeamContentTittle{
+        font-size: 22px;
+    }
+    .aboutTeamContentGridBoxContentName{
+        font-size: 16px;
+    }
+    .aboutForContentGridBoxContentDesc,.aboutTeamContentGridBoxContentDesc{
+        font-size: 14px;
+    }
+.aboutForContent,.aboutTeamContent {
+    display: flex;
+    width: 100%;
+}
+.aboutForContentGrid,.aboutTeamContentGrid{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.aboutForContentGridBox,.aboutTeamContentGridBox{
+    display: flex;
+    width: 100%;
 }
 .advMom{
     font-size: 14px;
@@ -1666,9 +1787,6 @@ margin-bottom: 60px;
 .studioVideoTittleContent iframe{
     width: 100%;
     height: 178px;
-}
-.studioVideos{
-    display: none;
 }
 
 .questionAnswer{

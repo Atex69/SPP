@@ -151,6 +151,7 @@ button{
     align-items: center;
     flex-wrap: nowrap;
     height: 56px;
+    padding-left: 35px;
     margin-right: 40px;
 }
 .menu-headerDown {
@@ -234,7 +235,9 @@ button{
     grid-area: 1 / 1 / 2 / 2;
 }
 
-
+.menu-header{
+    padding-left: 35px;
+}
 
 .menu-header-text a {
     color: #979898;
@@ -361,6 +364,26 @@ button{
     display: flex;
     flex-direction: row;
 }
+.pricerContentCards-buttons {
+    justify-content: center;
+    margin-bottom: 6%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+}
+.circleUp {
+    display: none;
+    width: 16px;
+    height: 16px;
+    background: #0070D0;
+    opacity: 0.35;
+    border: 1px solid #0070D0;
+    border-radius: 15px;
+    margin-right: 20px;
+}
+.circle-active {
+    opacity: 1!important;
+}
 
 .menu-headerDown-demo{
     display: flex;
@@ -371,7 +394,7 @@ button{
     letter-spacing: 1.2px;
     margin-right: 31px;
     margin-bottom: 10px;
-    margin-left: 82px;
+    margin-left: 160px;
     cursor: pointer;
 }
 
@@ -2353,10 +2376,10 @@ border-right: 1px solid black;
     flex-direction: row;
     display: flex;
     align-items: center;
-    margin-left: 1382px;
+    margin-left: 1292px;
     padding-top: 15px;
     position: fixed;
-    width: 522px;
+    width: 611px;
     height: 43px;
     z-index: 10;
 }

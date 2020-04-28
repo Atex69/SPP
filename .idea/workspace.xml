@@ -2,9 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="78caece4-cfe6-4a16-bb77-e04fa48c6df1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/img/work/advantBoxMenuContentLeftMobile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/work/musAdvantContentLeftMobile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/work/sellAdvantContentLeftMobile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/work/studioAdvantContentLeftMobile.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/indexAbout.html" beforeDir="false" afterPath="$PROJECT_DIR$/indexAbout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/indexFreeMus.html" beforeDir="false" afterPath="$PROJECT_DIR$/indexFreeMus.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/indexMsInternet.html" beforeDir="false" afterPath="$PROJECT_DIR$/indexMsInternet.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/indexPoMS.html" beforeDir="false" afterPath="$PROJECT_DIR$/indexPoMS.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/indexSell.html" beforeDir="false" afterPath="$PROJECT_DIR$/indexSell.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/indexServer.html" beforeDir="false" afterPath="$PROJECT_DIR$/indexServer.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/indexStudio.html" beforeDir="false" afterPath="$PROJECT_DIR$/indexStudio.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/media.css" beforeDir="false" afterPath="$PROJECT_DIR$/media.css" afterDir="false" />
@@ -42,11 +51,11 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../projectNode" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="application.passwordSafe" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -142,7 +151,9 @@
       <workItem from="1587736927686" duration="2127000" />
       <workItem from="1587853266397" duration="592000" />
       <workItem from="1587924344720" duration="2517000" />
-      <workItem from="1587944953983" duration="2604000" />
+      <workItem from="1587944953983" duration="3485000" />
+      <workItem from="1588002074030" duration="4146000" />
+      <workItem from="1588022853469" duration="8224000" />
     </task>
     <task id="LOCAL-00001" summary="11.03">
       <created>1583934484327</created>
@@ -249,7 +260,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587433947472</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="KILLMEPLEASE">
+      <created>1587947895724</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1587947895724</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -279,29 +297,30 @@
     <MESSAGE value="13 04" />
     <MESSAGE value="16 04" />
     <MESSAGE value="2004" />
-    <option name="LAST_COMMIT_MESSAGE" value="2004" />
+    <MESSAGE value="KILLMEPLEASE" />
+    <option name="LAST_COMMIT_MESSAGE" value="KILLMEPLEASE" />
   </component>
   <component name="WindowStateProjectService">
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587258759816">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587258759816" />
-    <state x="585" y="114" key="CommitChangelistDialog2" timestamp="1587433945964">
+    <state x="585" y="114" key="CommitChangelistDialog2" timestamp="1587947892071">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="585" y="114" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1587433945964" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1587924412446">
+    <state x="585" y="114" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1587947892071" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1588004814386">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1587924412446" />
-    <state x="461" y="162" key="SettingsEditor" timestamp="1587256729709">
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1588004814386" />
+    <state x="461" y="162" key="SettingsEditor" timestamp="1588007220750">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1587256729709" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1587433961599">
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1588007220750" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1587947898335">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1587433961599" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1587947898335" />
     <state x="591" y="217" width="737" height="606" key="find.popup" timestamp="1587256843213">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -320,7 +339,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/indexAbout.html</url>
-          <line>819</line>
+          <line>831</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

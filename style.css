@@ -816,6 +816,13 @@ button{
 
 }
 
+
+.advWorkContentMainContainer{
+
+
+}
+
+
 .advWorkContentTop1{
     grid-area: 1 / 1 / 2 / 2;
     background: #FFFFFF;
@@ -2652,6 +2659,7 @@ border-right: 1px solid black;
 
 
 
+
 .advantBoxMenu a{
     font-family: Effra;
     font-size: 18px;
@@ -2799,6 +2807,14 @@ border-right: 1px solid black;
     grid-area: 1 / 2 / 2 / 3;
     align-items: center;
     margin-top: 45px;
+}
+
+.flexx{
+    display: flex;
+    flex-direction: column;
+}
+.advantBoxMenuContentContainerMobile{
+    display: none;
 }
 
 .serverControlContentFormGrid{
